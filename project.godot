@@ -19,8 +19,13 @@ run/main_scene="uid://cb7fuo7vnthyk"
 config/features=PackedStringArray("4.6", "Mobile")
 config/icon="res://icon.svg"
 
+[autoload]
+
+Global="*uid://dqj3sojul64pl"
+
 [editor]
 
+movie_writer/movie_file="C:/Users/loerr/OneDrive/Documentos/GODOT/VIDEOS/grabacion.avi"
 version_control/plugin_name="GitPlugin"
 version_control/autoload_on_startup=true
 

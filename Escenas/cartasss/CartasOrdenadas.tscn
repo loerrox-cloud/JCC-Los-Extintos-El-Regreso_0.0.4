@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://c7fqor58iasuc"]
+
+[node name="CartasOrdenadas" type="Node2D" unique_id=1573841860]
+position = Vector2(5, 9)
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1451926927]
+offset_right = 40.0
+offset_bottom = 40.0
+color = Color(0.3372549, 1, 1, 1)
+metadata/_edit_use_anchors_ = true

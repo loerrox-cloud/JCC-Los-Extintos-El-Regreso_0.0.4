@@ -2,6 +2,10 @@
 
 [ext_resource type="Script" uid="uid://duhgveusm51o" path="res://deck.gd" id="1_yyctx"]
 [ext_resource type="PackedScene" uid="uid://d3uwfjr17diiy" path="res://Escenas/mano.tscn" id="2_wcn2j"]
+[ext_resource type="Script" uid="uid://dyo58k0jul7vt" path="res://Escenas/botones_mazo.gd" id="3_pr702"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_pr702"]
+size = Vector2(71.20001, 31.399994)
 
 [node name="DeckNHand" type="Node2D" unique_id=1414416079]
 script = ExtResource("1_yyctx")
@@ -28,16 +32,15 @@ offset_top = 246.0
 offset_right = 616.0
 offset_bottom = 323.0
 theme_override_font_sizes/font_size = 45
-text = "Crear carta de defensa"
+text = "Crear boton"
 
 [node name="Button3" type="Button" parent="." unique_id=1269381910]
-visible = false
-offset_left = 154.0
-offset_top = 349.0
-offset_right = 571.0
-offset_bottom = 426.0
+offset_left = 626.0
+offset_top = 205.0
+offset_right = 1043.0
+offset_bottom = 282.0
 theme_override_font_sizes/font_size = 45
-text = "Crear carta de buff
+text = "Robar carta
 "
 
 [node name="Button4" type="Button" parent="." unique_id=514362004]
@@ -56,8 +59,36 @@ offset_right = 506.0
 offset_bottom = 85.0
 placeholder_text = "Introduce nombre de la carta..."
 
+[node name="Mazo" type="Label" parent="." unique_id=1680078910]
+offset_left = 46.0
+offset_top = 682.0
+offset_right = 601.5
+offset_bottom = 731.0
+scale = Vector2(2, 2)
+text = "
+"
+autowrap_mode = 2
+
+[node name="Button5" type="Button" parent="." unique_id=1085854812]
+offset_left = 501.00006
+offset_top = 394.99997
+offset_right = 553.00006
+offset_bottom = 425.99997
+scale = Vector2(5, 5)
+text = "HOLA"
+metadata/_edit_use_anchors_ = true
+
+[node name="Area2D" type="Area2D" parent="Button5" unique_id=577193518]
+script = ExtResource("3_pr702")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Button5/Area2D" unique_id=681126511]
+position = Vector2(26.599985, 14.800005)
+scale = Vector2(0.99999994, 0.99999994)
+shape = SubResource("RectangleShape2D_pr702")
+
 [connection signal="button_down" from="Button" to="." method="_on_button_button_down"]
-[connection signal="button_down" from="Button2" to="." method="_on_button_2_button_down"]
+[connection signal="button_down" from="Button2" to="Button5/Area2D" method="_on_button_2_button_down"]
 [connection signal="button_down" from="Button3" to="." method="_on_button_3_button_down"]
 [connection signal="button_down" from="Button4" to="." method="_on_button_4_button_down"]
 [connection signal="text_submitted" from="LineEdit" to="." method="_on_line_edit_text_submitted"]
+[connection signal="area_entered" from="Button5/Area2D" to="Button5/Area2D" method="_on_area_entered"]

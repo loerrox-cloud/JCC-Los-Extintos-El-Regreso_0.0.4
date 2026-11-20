@@ -17,8 +17,8 @@ var highlight_index: int = -1
 func add_card(card: Node2D):
 	hand.push_back(card)
 	add_child(card)
-	#card.mouse_entered.connect(_handle_card_touched)
-	#card.mouse_exited.connect(_handle_card_untouched)
+	card.mouse_entered.connect(_handle_card_touched)
+	card.mouse_exited.connect(_handle_card_untouched)
 	reposition_cards()
 	
 func remove_card(index: int) -> Node2D:

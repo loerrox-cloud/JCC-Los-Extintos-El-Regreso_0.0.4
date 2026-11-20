@@ -1,8 +1,8 @@
 @tool
 class_name Carta extends Node2D
 
-signal mouse_entered(card: Carta)
-signal mouse_exited(card: Carta)
+signal mouse_entered#(card: Carta)
+signal mouse_exited#(card: Carta)
 
 @export var Nombre: String = "Nombre"
 @export var Descripcion: String = "Ataque"
@@ -40,10 +40,11 @@ signal mouse_exited(card: Carta)
 func _ready() -> void:
 	set_values(Nombre, Coste, Vida, Ataque, Defensa, Velocidad, Rareza, Terreno, Periodo, Descripcion)
 	await get_tree().create_timer(0.3).timeout #Espera 1 segundo
-	print(NombreLabel.text.length())
+	#print(NombreLabel.text.length())
 	if int(NombreLabel.text.length()) > 12 :
-		print("si")
+		#print("si")
 		$NombreLabel.scale = Vector2(0.35, 0.35)
+		
 	
 func set_values(Nombre: String, Coste: int, Vida: int, Ataque: int, Defensa: int, Velocidad: int, Rareza: String, Terreno: String, Periodo: String, Descripcion: String): 
 	CosteLabel.set_text(str(Coste))
@@ -66,9 +67,12 @@ func unhighlight():
 	
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
-	#if Input.is_action_just_pressed("ui_up"):
-		#print("hola")
-		
+	if Input.is_action_just_pressed("ui_up"):
+		print("hol")
+		highlight()
+	if Input.is_action_just_pressed("ui_up"):
+		print("adios")
+		unhighlight()
 	pass
 
 func prueba1():
@@ -76,12 +80,15 @@ func prueba1():
 	pass
 
 #func _on_area_2d_mouse_entered(carta: Carta):
+	print(NombreLabel)
 	mouse_entered.emit(self)
-	#highlight()
+	highlight()
+	pass
 
 #func _on_area_2d_mouse_exited(carta: Carta):
 	mouse_exited.emit(self)
-	#unhighlight()
+	unhighlight()
+	pass
 	
 	# 	INTENTO DE PROGRAMACION DE COLISIONES:
 	
@@ -93,19 +100,31 @@ func prueba1():
  
 
 #func _ajustar_tamano_texto() -> void:
-	var fuente = $NombreLabel
-	var tamano_actual = max_font_size 
+	#var fuente = $NombreLabel
+	#var tamano_actual = max_font_size 
 	
 # Obtenemos el ancho disponible del Label
-	var ancho_disponible = fuente.x
+	#var ancho_disponible = fuente.x
 	
-	if ancho_disponible <= 0:
-		return
+	#if ancho_disponible <= 0:
+		#return
 		
 # Reducimos el tamaño de la fuente en bucle mientras el texto sea más ancho que el espacio
-	var tamano_texto = fuente.get_string_size(fuente, HORIZONTAL_ALIGNMENT_LEFT, -1, tamano_actual).x
+	#var tamano_texto = fuente.get_string_size(fuente, HORIZONTAL_ALIGNMENT_LEFT, -1, tamano_actual).x
 	
-	while tamano_texto > ancho_disponible and tamano_actual > min_font_size:
-		tamano_actual -= 1
+	#while tamano_texto > ancho_disponible and tamano_actual > min_font_size:
+	#	tamano_actual -= 1
 #		add_theme_font_size_override(fuente, tamano_actual)
 #		tamano_texto = fuente.get_string_size(text, HORIZONTAL_ALIGNMENT_LEFT, -1, tamano_actual).x
+
+
+func _on_mouse_entered() -> void:
+	mouse_entered.emit()
+	print("dentro")
+	#pass # Replace with function body.
+
+
+func _on_mouse_exited() -> void:
+	mouse_exited.emit()
+	print("fuera")
+	 #pass # Replace with function body.

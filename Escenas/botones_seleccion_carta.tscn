@@ -1,0 +1,41 @@
+[gd_scene format=3 uid="uid://cc85ssreqtbmj"]
+
+[ext_resource type="Script" uid="uid://dyo58k0jul7vt" path="res://Escenas/botones_mazo.gd" id="1_xghou"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_2i8nm"]
+size = Vector2(50, 31.399994)
+
+[node name="BotonesSeleccionCarta" type="Node2D" unique_id=1809492520]
+position = Vector2(16, 53)
+
+[node name="HBoxContainer" type="HBoxContainer" parent="." unique_id=2075220769]
+offset_left = 1.0
+offset_right = 51.0
+offset_bottom = 31.0
+
+[node name="Button" type="Button" parent="HBoxContainer" unique_id=416921666]
+modulate = Color(1, 0.101960786, 0.043137256, 1)
+layout_mode = 2
+text = "-"
+
+[node name="Label" type="Label" parent="HBoxContainer" unique_id=278268984]
+modulate = Color(0, 1, 1, 1)
+layout_mode = 2
+text = "0"
+
+[node name="Button2" type="Button" parent="HBoxContainer" unique_id=1079388462]
+modulate = Color(0.16470589, 1, 0, 1)
+layout_mode = 2
+text = "+"
+
+[node name="Area2D" type="Area2D" parent="." unique_id=2046617411]
+script = ExtResource("1_xghou")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=807697681]
+position = Vector2(26, 14.800005)
+scale = Vector2(0.99999994, 0.99999994)
+shape = SubResource("RectangleShape2D_2i8nm")
+
+[connection signal="button_down" from="HBoxContainer/Button" to="Area2D" method="_on_button_button_down"]
+[connection signal="button_down" from="HBoxContainer/Button2" to="Area2D" method="_on_button_2_button_down"]
+[connection signal="area_entered" from="Area2D" to="Area2D" method="_on_area_entered"]

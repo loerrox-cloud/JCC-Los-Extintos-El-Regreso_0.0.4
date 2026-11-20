@@ -1,0 +1,39 @@
+[gd_scene format=3 uid="uid://curm3tthqvgx"]
+
+[ext_resource type="Script" uid="uid://wbtsqhf20uhm" path="res://Escenas/cartasss/seleccion_cartas.gd" id="1_2jw3q"]
+[ext_resource type="PackedScene" uid="uid://dm7apgbbm2qha" path="res://Escenas/cartasss/CartaEscena.tscn" id="2_cmbk4"]
+
+[node name="SeleccionCartas" type="Node2D" unique_id=1632234406]
+position = Vector2(84, 117)
+script = ExtResource("1_2jw3q")
+escena_item = ExtResource("2_cmbk4")
+
+[node name="Mazo" type="Label" parent="." unique_id=24910055]
+offset_left = -77.0
+offset_top = 827.0
+offset_right = 879.0
+offset_bottom = 850.0
+scale = Vector2(2, 2)
+text = "Tu mazo: "
+autowrap_mode = 2
+
+[node name="Numero_mazo" type="Label" parent="." unique_id=14464239]
+offset_left = 1755.0
+offset_top = -102.0
+offset_right = 1791.5
+offset_bottom = -53.0
+scale = Vector2(2, 2)
+text = "/40
+"
+
+[node name="Button" type="Button" parent="." unique_id=1900951817]
+z_index = 1
+offset_left = 1713.0
+offset_top = -57.0
+offset_right = 1762.0
+offset_bottom = -26.0
+scale = Vector2(2, 2)
+text = "Jugar"
+metadata/_edit_use_anchors_ = true
+
+[connection signal="button_down" from="Button" to="." method="_on_button_button_down"]

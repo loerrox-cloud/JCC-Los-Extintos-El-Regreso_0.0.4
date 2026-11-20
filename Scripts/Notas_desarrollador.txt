@@ -1,0 +1,3 @@
+#await get_tree().create_timer(2.0).timeout #Espera 1 segundo
+#if area.get_parent().has_method("obtener_nombre") #toma el nodo superior jerárquicamente al área (a´rea que hace colisión) y pregunta si tiene una función con un nombre determinado 
+Botones.z_index = 1 # Mover hacia delante
