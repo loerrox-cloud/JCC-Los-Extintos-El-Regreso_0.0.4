@@ -3,9 +3,13 @@
 [ext_resource type="Script" uid="uid://duhgveusm51o" path="res://deck.gd" id="1_yyctx"]
 [ext_resource type="PackedScene" uid="uid://d3uwfjr17diiy" path="res://Escenas/mano.tscn" id="2_wcn2j"]
 [ext_resource type="Script" uid="uid://dyo58k0jul7vt" path="res://Escenas/botones_mazo.gd" id="3_pr702"]
+[ext_resource type="Script" uid="uid://co1g5m3shia36" path="res://Escenas/area_1.gd" id="4_8o1ef"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_pr702"]
 size = Vector2(71.20001, 31.399994)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_8o1ef"]
+size = Vector2(131, 183)
 
 [node name="DeckNHand" type="Node2D" unique_id=1414416079]
 script = ExtResource("1_yyctx")
@@ -70,6 +74,7 @@ text = "
 autowrap_mode = 2
 
 [node name="Button5" type="Button" parent="." unique_id=1085854812]
+visible = false
 offset_left = 501.00006
 offset_top = 394.99997
 offset_right = 553.00006
@@ -86,9 +91,23 @@ position = Vector2(26.599985, 14.800005)
 scale = Vector2(0.99999994, 0.99999994)
 shape = SubResource("RectangleShape2D_pr702")
 
+[node name="Panel" type="Panel" parent="." unique_id=787157192]
+offset_left = 87.0
+offset_top = 280.0
+offset_right = 204.0
+offset_bottom = 440.0
+
+[node name="Area1" type="Area2D" parent="Panel" unique_id=723456487]
+script = ExtResource("4_8o1ef")
+
+[node name="Hueco1" type="CollisionShape2D" parent="Panel/Area1" unique_id=2099447330]
+position = Vector2(58, 81)
+shape = SubResource("RectangleShape2D_8o1ef")
+
 [connection signal="button_down" from="Button" to="." method="_on_button_button_down"]
 [connection signal="button_down" from="Button2" to="Button5/Area2D" method="_on_button_2_button_down"]
 [connection signal="button_down" from="Button3" to="." method="_on_button_3_button_down"]
 [connection signal="button_down" from="Button4" to="." method="_on_button_4_button_down"]
 [connection signal="text_submitted" from="LineEdit" to="." method="_on_line_edit_text_submitted"]
 [connection signal="area_entered" from="Button5/Area2D" to="Button5/Area2D" method="_on_area_entered"]
+[connection signal="area_entered" from="Panel/Area1" to="." method="_on_area_1_area_entered"]

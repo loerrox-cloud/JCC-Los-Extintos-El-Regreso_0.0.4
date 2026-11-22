@@ -31,15 +31,19 @@ func _process(delta: float): #-> void:
 func _on_button_button_down():
 	var NombreCarta = EntradaTexto.text
 	
-	var Carta = Carta.instantiate()
-	hand.add_card(Carta)
-	var IndiceCriatura = text_content_parts.find(NombreCarta) 
-	Carta.set_values(text_content_parts[IndiceCriatura+0], int(text_content_parts[IndiceCriatura+1]), int(text_content_parts[IndiceCriatura+2]), int(text_content_parts[IndiceCriatura+3]), int(text_content_parts[IndiceCriatura+4]), int(text_content_parts[IndiceCriatura+5]), text_content_parts[IndiceCriatura+6], text_content_parts[IndiceCriatura+7], text_content_parts[IndiceCriatura+8], str(text_content_parts[IndiceCriatura+9]) + "\n" + str(text_content_parts[IndiceCriatura+10]) + "\n" + str(text_content_parts[IndiceCriatura+11]) )       
+	var IndiceCriatura = text_content_parts.find(NombreCarta)
+	if IndiceCriatura == -1:
+		print("Esa carta no existe bro")
+	
+	if IndiceCriatura != -1:
+		var Carta = Carta.instantiate()
+		hand.add_card(Carta)
+		Carta.set_values(text_content_parts[IndiceCriatura+0], int(text_content_parts[IndiceCriatura+1]), int(text_content_parts[IndiceCriatura+2]), int(text_content_parts[IndiceCriatura+3]), int(text_content_parts[IndiceCriatura+4]), int(text_content_parts[IndiceCriatura+5]), text_content_parts[IndiceCriatura+6], text_content_parts[IndiceCriatura+7], text_content_parts[IndiceCriatura+8], str(text_content_parts[IndiceCriatura+9]) + "\n" + str(text_content_parts[IndiceCriatura+10]) + "\n" + str(text_content_parts[IndiceCriatura+11]) )       
 	
 
 	#print(NombreCarta.length())
 	
-	
+
 func _on_button_2_button_down() -> void:
 	var Carta = CartaDef.instantiate()
 	#Carta.set_values("Jeff", 2, int(text_content_parts[8])+1, int(text_content_parts[9])+3, int(text_content_parts[10]), int(text_content_parts[11]), "plat", "vuelador", "Paleozoiko", "Atake \n Defenza")
@@ -47,13 +51,14 @@ func _on_button_2_button_down() -> void:
 
 
 func _on_button_3_button_down() -> void:
-	var NombreCarta = Global.mazo_array[randi_range(0,int(Global.mazo_array.size()-1))] #
-	print(NombreCarta)
-	var Carta = Carta.instantiate()
-	hand.add_card(Carta)
-	var IndiceCriatura = text_content_parts.find(NombreCarta)
-	print(IndiceCriatura)
-	Carta.set_values(text_content_parts[IndiceCriatura+0], int(text_content_parts[IndiceCriatura+1]), int(text_content_parts[IndiceCriatura+2]), int(text_content_parts[IndiceCriatura+3]), int(text_content_parts[IndiceCriatura+4]), int(text_content_parts[IndiceCriatura+5]), text_content_parts[IndiceCriatura+6], text_content_parts[IndiceCriatura+7], text_content_parts[IndiceCriatura+8], str(text_content_parts[IndiceCriatura+9]) + "\n" + str(text_content_parts[IndiceCriatura+10]) + "\n" + str(text_content_parts[IndiceCriatura+11]) )
+	if Global.mazo_array.size() > 0:
+		var NombreCarta = Global.mazo_array[randi_range(0,int(Global.mazo_array.size()-1))] #
+		print(NombreCarta)
+		var Carta = Carta.instantiate()
+		hand.add_card(Carta)
+		var IndiceCriatura = text_content_parts.find(NombreCarta)
+		print(IndiceCriatura)
+		Carta.set_values(text_content_parts[IndiceCriatura+0], int(text_content_parts[IndiceCriatura+1]), int(text_content_parts[IndiceCriatura+2]), int(text_content_parts[IndiceCriatura+3]), int(text_content_parts[IndiceCriatura+4]), int(text_content_parts[IndiceCriatura+5]), text_content_parts[IndiceCriatura+6], text_content_parts[IndiceCriatura+7], text_content_parts[IndiceCriatura+8], str(text_content_parts[IndiceCriatura+9]) + "\n" + str(text_content_parts[IndiceCriatura+10]) + "\n" + str(text_content_parts[IndiceCriatura+11]) )
 	pass
 	
 	#var Carta = CartaBuff.instantiate()
@@ -75,10 +80,8 @@ func _on_button_4_button_down() -> void:
 	
 	
 func bucle_contador_Criaturas() -> void:
-
 	#print(text_content_parts_criaturas.size()-1)
 	#print(NumeroAleatorio)
-	
 	var ConteoCriaturas = 1
 	while ConteoCriaturas < text_content_parts_criaturas.size():
 		ConteoCriaturas += 1
@@ -92,4 +95,10 @@ func get_text_file_content(filePath):  # Función para leer archivo .txt
 	return content
 
 
-	
+func _on_area_1_area_entered(area: Area2D) -> void:
+	print("algo ha entrado en el área")
+	print(area)
+	if area == Node2D:
+		print("Carta entrada")
+	hand.remove_card(area)
+	pass # Replace with function body.

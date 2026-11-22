@@ -34,7 +34,7 @@ signal mouse_exited#(card: Carta)
 @onready var DefensaLabel: Label = $Defensa/DefensaLabel
 @onready var AtaqueLabel: Label = $Ataque/AtaqueLabel
 
-
+var cursor_encima: bool = false
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
@@ -58,37 +58,39 @@ func set_values(Nombre: String, Coste: int, Vida: int, Ataque: int, Defensa: int
 	AtaqueLabel.set_text(str(Ataque))
 	PeriodoLabel.set_text(str(Periodo))
 	
+	
+	mouse_entered.connect(_on_area_2d_mouse_entered)  # Esto quizá debería estar activo pero parece que no pasa nada
+	mouse_exited.connect(_on_area_2d_mouse_exited)    # Esto quizá debería estar activo pero parece que no pasa nada
 
 func highlight():
 	base_sprite.set_modulate(Color(1, 0.5, 0.1, 1)) 
+	self.z_index = 1
 
 func unhighlight():
-	base_sprite.set_modulate(Color(1, 1, 1, 1)) 
+	base_sprite.set_modulate(Color(1, 1, 1, 1))
+	self.z_index = 0 
 	
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
 	if Input.is_action_just_pressed("ui_up"):
-		print("hol")
-		highlight()
+		#print("hol")
+		#highlight()
+		pass
+		
 	if Input.is_action_just_pressed("ui_up"):
-		print("adios")
-		unhighlight()
-	pass
+		#print("adios")
+		#unhighlight()
+		pass
 
-func prueba1():
-	#print("touched : " + Nombre)
-	pass
+	#PARA QUE LA CARTA SE ARRASTRE
+	
+	if cursor_encima && Input.is_action_pressed("mouse_click"):
+		self.global_position = get_global_mouse_position()
+		self.set_rotation(0)
+		
 
-#func _on_area_2d_mouse_entered(carta: Carta):
-	print(NombreLabel)
-	mouse_entered.emit(self)
-	highlight()
-	pass
 
-#func _on_area_2d_mouse_exited(carta: Carta):
-	mouse_exited.emit(self)
-	unhighlight()
-	pass
+
 	
 	# 	INTENTO DE PROGRAMACION DE COLISIONES:
 	
@@ -103,14 +105,14 @@ func prueba1():
 	#var fuente = $NombreLabel
 	#var tamano_actual = max_font_size 
 	
-# Obtenemos el ancho disponible del Label
-	#var ancho_disponible = fuente.x
+
+	#var ancho_disponible = fuente.x # el ancho disponible del Label
 	
 	#if ancho_disponible <= 0:
 		#return
 		
-# Reducimos el tamaño de la fuente en bucle mientras el texto sea más ancho que el espacio
-	#var tamano_texto = fuente.get_string_size(fuente, HORIZONTAL_ALIGNMENT_LEFT, -1, tamano_actual).x
+
+	#var tamano_texto = fuente.get_string_size(fuente, HORIZONTAL_ALIGNMENT_LEFT, -1, tamano_actual).x   # Reducir el tamaño de la fuente en bucle mientras el texto sea más ancho que el espacio
 	
 	#while tamano_texto > ancho_disponible and tamano_actual > min_font_size:
 	#	tamano_actual -= 1
@@ -118,13 +120,24 @@ func prueba1():
 #		tamano_texto = fuente.get_string_size(text, HORIZONTAL_ALIGNMENT_LEFT, -1, tamano_actual).x
 
 
-func _on_mouse_entered() -> void:
-	mouse_entered.emit()
-	print("dentro")
+#func _on_mouse_entered() -> void: #No sirve porque la detección de colisión del mouse con el nodo padre no lo detecta
 	#pass # Replace with function body.
 
+func _on_area_2d_mouse_entered() -> void:
+	cursor_encima = true
+	mouse_entered.emit(self)
+	#print(NombreLabel.text)
+	#print("mouse detectado")
+	
+	#highlight()
+	pass # Replace with function body.
 
-func _on_mouse_exited() -> void:
-	mouse_exited.emit()
-	print("fuera")
-	 #pass # Replace with function body.
+
+func _on_area_2d_mouse_exited() -> void:
+	cursor_encima = false
+	mouse_exited.emit(self)
+	#print("mouse ya no detectado")
+	
+	#unhighlight()
+	pass # Replace with function body.
+	

@@ -12,6 +12,7 @@ class_name Hand extends Node2D
 var hand: Array = []
 var touched: Array = []
 var highlight_index: int = -1
+var dragged_card = null
 
 
 func add_card(card: Node2D):
@@ -21,10 +22,11 @@ func add_card(card: Node2D):
 	card.mouse_exited.connect(_handle_card_untouched)
 	reposition_cards()
 	
-func remove_card(index: int) -> Node2D:
+func remove_card(card: Node2D): # Antes remove_card(index: int) -> Node2D:
+	var index = hand.find(card)
 	var removing_card = hand[index]
 	hand.remove_at(index)
-	remove_child(removing_card)
+	#remove_child(removing_card)
 	reposition_cards()
 	return removing_card
 
@@ -46,20 +48,54 @@ func _update_card_transform(card: Node2D, angle_in_drag: float):
 	
 	
 func _handle_card_touched(card):
-	touched.push_back(card)
+	#if Input.is_action_pressed("mouse_click"):# Anteriormente if event is InputEventMouseButton and event.button_index == MOUSE_BUTTON_LEFT:
+		#print("Listo para arrastrar")
+		#if touched.size() > 0: #  o touched ?
+			#print("Listo para arrastrar")
+			#hand[highlight_index].global_position = get_global_mouse_position()
 	
-	var card_index = hand.find(Carta) # Esto de aquí a abajo parece que no va aquí o no es necesario
-	if highlight_index < card_index:
+	#print(touched)
+	if card == null: #consejo de la IA no del video
+		return #consejo de la IA no del video
+	
+	if not touched.has(card): #consejo de la IA no del video
+		touched.push_back(card)
+		
+	#print("sí, tocado : " + str(carta.name))
+	var card_index = hand.find(card) 
+	#print(card_index)
+	#print("tocado : " + str(card.name))
+	if highlight_index != -1: # consejo de la IA no del video, el vídeo ponía < card_index:
 		highlight_index = card_index
-		print("touched : " + carta.Buff)
+		
+		
+
 	
-func _handle_card_untouched():
-	var card_index = hand.find(Carta)
-	if highlight_index == card_index: # Esto de aquí a abajo parece que no va aquí o no es necesario
+func _handle_card_untouched(card):
+	if card == null: #consejo de la IA no del video
+		return #consejo de la IA no del video
+	
+	var card_index = hand.find(card)
+	#print(card_index)
+	touched.erase(card)
+	#print("untouched : " + str(card.NombreLabel.text))
+	if highlight_index == card_index: 
 		highlight_index = -1
-		print("untouched : " + carta.Nombre)
 		hand[highlight_index].unhighlight()
 	
+	
+	
+#func _unhandled_input(event: InputEvent) -> void:  #para arrastrar cartas
+	#if event is InputEventMouseButton and event.button_index == MOUSE_BUTTON_LEFT:
+	#	if event.pressed and highlight_index >= 0 and highlight_index < hand.size():
+	#		print("arrastar")
+	#		dragged_card = hand[highlight_index]
+		
+	#	elif not event.pressed and dragged_card != null: # Al soltar deja de arrastrar
+			
+	#		dragged_card = null
+
+
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	pass # Replace with function body
@@ -87,3 +123,30 @@ func _process(delta):
 		
 	carta.set_position(get_card_position(card_angle))
 	carta.set_rotation(deg_to_rad(card_angle + 90))
+	
+	#if Input.is_action_just_pressed("ui_up"):
+		#if touched.size() > 0:
+			
+			#pass
+			#print(highlight_index)
+			#print(touched[highlight_index].NombreLabel.text) #De momento no va y te dice la carta con el mayor índice no de las que estás tocando sino de la mano en general
+
+	pass
+		
+	
+	# ESTO DE ABAJO PARA QUE LA CARTA SE ARRASTRE:
+	#if is_instance_valid(dragged_card): 
+		#dragged_card.position = get_global_mouse_position()  # antes ponía global_position en vez de .position a secas
+		#for card in hand:  Lo dijo la IA pero no sé si funciona
+		#	if card == dragged_card:
+		#		card.highlight()
+		#	else:
+		#		card.unhighlight()
+		#return
+		
+		#get_global_mouse_position()
+	#for card in hand: # Lógica de resaltado. Lo dijo la IA pero si se activa no funciona
+		#card.unhighlight()
+	
+	#if highlight_index >= 0 and highlight_index < hand.size(): # Lógica de resaltado. Lo dijo la IA pero si se activa no funciona 
+		#hand[highlight_index].highlight()
