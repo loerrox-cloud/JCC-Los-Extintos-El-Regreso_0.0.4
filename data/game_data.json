@@ -1,0 +1,2833 @@
+{
+  "version": "0.1.0",
+  "creatures": [
+    {
+      "id": "aegirocassis",
+      "name_es": "Aegirocassis",
+      "name_en": "Aegirocassis",
+      "era": "Paleozoico",
+      "subclass": "Acuático",
+      "rarity": "Bronce",
+      "amber_cost": 3,
+      "hp": 60,
+      "attack": 30,
+      "armor": 15,
+      "speed": 49,
+      "abilities": [
+        "cabezazo",
+        "persecucion"
+      ],
+      "passive": "contramordisco",
+      "art_normal": "res://assets/art/creatures/aegirocassis.png",
+      "art_glow": "res://assets/art/creatures/aegirocassis_glow.png",
+      "background": "res://assets/art/backgrounds/bg_acuatico_01.jpg"
+    },
+    {
+      "id": "anomalocaris",
+      "name_es": "Anomalocaris",
+      "name_en": "Anomalocaris",
+      "era": "Paleozoico",
+      "subclass": "Acuático",
+      "rarity": "Plata",
+      "amber_cost": 5,
+      "hp": 80,
+      "attack": 60,
+      "armor": 10,
+      "speed": 67,
+      "abilities": [
+        "picotazo",
+        "mutilacion"
+      ],
+      "passive": "",
+      "art_normal": "res://assets/art/creatures/anomalocaris.png",
+      "art_glow": "",
+      "background": "res://assets/art/backgrounds/bg_acuatico_02.jpg"
+    },
+    {
+      "id": "cephalaspis",
+      "name_es": "Cephalaspis",
+      "name_en": "Cephalaspis",
+      "era": "Paleozoico",
+      "subclass": "Acuático",
+      "rarity": "Bronce",
+      "amber_cost": 4,
+      "hp": 65,
+      "attack": 35,
+      "armor": 15,
+      "speed": 48,
+      "abilities": [
+        "cabezazo",
+        "mutacion_espontanea"
+      ],
+      "passive": "entrada_sanadora",
+      "art_normal": "res://assets/art/creatures/cephalaspis.png",
+      "art_glow": "",
+      "background": "res://assets/art/backgrounds/bg_acuatico_03.jpg"
+    },
+    {
+      "id": "coelurosauravus",
+      "name_es": "Coelurosauravus",
+      "name_en": "Coelurosauravus",
+      "era": "Paleozoico",
+      "subclass": "Volador",
+      "rarity": "Bronce",
+      "amber_cost": 2,
+      "hp": 75,
+      "attack": 30,
+      "armor": 0,
+      "speed": 81,
+      "abilities": [
+        "golpe_de_cola",
+        "ciclon"
+      ],
+      "passive": "",
+      "art_normal": "res://assets/art/creatures/coelurosauravus.png",
+      "art_glow": "",
+      "background": "res://assets/art/backgrounds/bg_volador_01.jpg"
+    },
+    {
+      "id": "dicynodon",
+      "name_es": "Dicynodon",
+      "name_en": "Dicynodon",
+      "era": "Paleozoico",
+      "subclass": "Terrestre",
+      "rarity": "Plata",
+      "amber_cost": 3,
+      "hp": 50,
+      "attack": 40,
+      "armor": 10,
+      "speed": 79,
+      "abilities": [
+        "cabezazo",
+        "arrojaarena"
+      ],
+      "passive": "contramordisco",
+      "art_normal": "res://assets/art/creatures/dicynodon.png",
+      "art_glow": "",
+      "background": "res://assets/art/backgrounds/bg_terrestre_01.jpg"
+    },
+    {
+      "id": "dimetrodon",
+      "name_es": "Dimetrodon",
+      "name_en": "Dimetrodon",
+      "era": "Paleozoico",
+      "subclass": "Terrestre",
+      "rarity": "Bronce",
+      "amber_cost": 3,
+      "hp": 70,
+      "attack": 50,
+      "armor": 0,
+      "speed": 47,
+      "abilities": [
+        "mordisco",
+        "despliegue_intimidante"
+      ],
+      "passive": "",
+      "art_normal": "res://assets/art/creatures/dimetrodon.png",
+      "art_glow": "res://assets/art/creatures/dimetrodon_glow.png",
+      "background": "res://assets/art/backgrounds/bg_terrestre_02.jpg"
+    },
+    {
+      "id": "diplocaulus",
+      "name_es": "Diplocaulus",
+      "name_en": "Diplocaulus",
+      "era": "Paleozoico",
+      "subclass": "Anfibio",
+      "rarity": "Plata",
+      "amber_cost": 3,
+      "hp": 80,
+      "attack": 40,
+      "armor": 0,
+      "speed": 70,
+      "abilities": [
+        "golpe_anfibio",
+        "intimidar"
+      ],
+      "passive": "",
+      "art_normal": "res://assets/art/creatures/diplocaulus.png",
+      "art_glow": "res://assets/art/creatures/diplocaulus_glow.png",
+      "background": "res://assets/art/backgrounds/bg_anfibio_01.jpg"
+    },
+    {
+      "id": "dunkleosteus",
+      "name_es": "Dunkleosteus",
+      "name_en": "Dunkleosteus",
+      "era": "Paleozoico",
+      "subclass": "Acuático",
+      "rarity": "Plata",
+      "amber_cost": 5,
+      "hp": 110,
+      "attack": 65,
+      "armor": 15,
+      "speed": 38,
+      "abilities": [
+        "cabezazo",
+        "lacerar"
+      ],
+      "passive": "",
+      "art_normal": "res://assets/art/creatures/dunkleosteus.png",
+      "art_glow": "",
+      "background": "res://assets/art/backgrounds/bg_acuatico_04.jpg"
+    },
+    {
+      "id": "edaphosaurus",
+      "name_es": "Edaphosaurus",
+      "name_en": "Edaphosaurus",
+      "era": "Paleozoico",
+      "subclass": "Terrestre",
+      "rarity": "Plata",
+      "amber_cost": 3,
+      "hp": 60,
+      "attack": 40,
+      "armor": 0,
+      "speed": 51,
+      "abilities": [
+        "golpe_de_cola",
+        "intimidar"
+      ],
+      "passive": "contra_ira",
+      "art_normal": "res://assets/art/creatures/edaphosaurus.png",
+      "art_glow": "res://assets/art/creatures/edaphosaurus_glow.png",
+      "background": "res://assets/art/backgrounds/bg_terrestre_03.jpg"
+    },
+    {
+      "id": "endoceras",
+      "name_es": "Endoceras",
+      "name_en": "Endoceras",
+      "era": "Paleozoico",
+      "subclass": "Acuático",
+      "rarity": "Plata",
+      "amber_cost": 4,
+      "hp": 70,
+      "attack": 25,
+      "armor": 20,
+      "speed": 33,
+      "abilities": [
+        "zampar",
+        "fortalecer"
+      ],
+      "passive": "",
+      "art_normal": "res://assets/art/creatures/endoceras.png",
+      "art_glow": "",
+      "background": "res://assets/art/backgrounds/bg_acuatico_05.jpg"
+    },
+    {
+      "id": "estemmenosuchus",
+      "name_es": "Estemmenosuchus",
+      "name_en": "Estemmenosuchus",
+      "era": "Paleozoico",
+      "subclass": "Terrestre",
+      "rarity": "Plata",
+      "amber_cost": 4,
+      "hp": 90,
+      "attack": 60,
+      "armor": 5,
+      "speed": 52,
+      "abilities": [
+        "embestida",
+        "arrojaarena"
+      ],
+      "passive": "",
+      "art_normal": "res://assets/art/creatures/estemmenosuchus.png",
+      "art_glow": "",
+      "background": "res://assets/art/backgrounds/bg_terrestre_04.jpg"
+    },
+    {
+      "id": "helicoprion",
+      "name_es": "Helicoprion",
+      "name_en": "Helicoprion",
+      "era": "Paleozoico",
+      "subclass": "Acuático",
+      "rarity": "Bronce",
+      "amber_cost": 2,
+      "hp": 40,
+      "attack": 50,
+      "armor": 0,
+      "speed": 66,
+      "abilities": [
+        "asalto_purificador",
+        "desarme_bestial"
+      ],
+      "passive": "contradeceleracion",
+      "art_normal": "res://assets/art/creatures/helicoprion.png",
+      "art_glow": "res://assets/art/creatures/helicoprion_glow.png",
+      "background": "res://assets/art/backgrounds/bg_acuatico_06.jpg"
+    },
+    {
+      "id": "inostrancevia",
+      "name_es": "Inostrancevia",
+      "name_en": "Inostrancevia",
+      "era": "Paleozoico",
+      "subclass": "Terrestre",
+      "rarity": "Bronce",
+      "amber_cost": 3,
+      "hp": 60,
+      "attack": 55,
+      "armor": 0,
+      "speed": 64,
+      "abilities": [
+        "golpe",
+        "mordisco_rabioso"
+      ],
+      "passive": "entrada_amedrentadora",
+      "art_normal": "res://assets/art/creatures/inostrancevia.png",
+      "art_glow": "res://assets/art/creatures/inostrancevia_glow.png",
+      "background": "res://assets/art/backgrounds/bg_terrestre_05.jpg"
+    },
+    {
+      "id": "jonkeria",
+      "name_es": "Jonkeria",
+      "name_en": "Jonkeria",
+      "era": "Paleozoico",
+      "subclass": "Terrestre",
+      "rarity": "Bronce",
+      "amber_cost": 3,
+      "hp": 65,
+      "attack": 50,
+      "armor": 10,
+      "speed": 24,
+      "abilities": [
+        "mordisco",
+        "aranazo_lacerante"
+      ],
+      "passive": "",
+      "art_normal": "res://assets/art/creatures/jonkeria.png",
+      "art_glow": "",
+      "background": "res://assets/art/backgrounds/bg_terrestre_06.jpg"
+    },
+    {
+      "id": "meganeura",
+      "name_es": "Meganeura",
+      "name_en": "Meganeura",
+      "era": "Paleozoico",
+      "subclass": "Volador",
+      "rarity": "Bronce",
+      "amber_cost": 3,
+      "hp": 55,
+      "attack": 55,
+      "armor": 5,
+      "speed": 90,
+      "abilities": [
+        "asalto_aereo",
+        "mordisco_rabioso"
+      ],
+      "passive": "",
+      "art_normal": "res://assets/art/creatures/meganeura.png",
+      "art_glow": "",
+      "background": "res://assets/art/backgrounds/bg_volador_02.jpg"
+    },
+    {
+      "id": "moschops",
+      "name_es": "Moschops",
+      "name_en": "Moschops",
+      "era": "Paleozoico",
+      "subclass": "Terrestre",
+      "rarity": "Bronce",
+      "amber_cost": 2,
+      "hp": 70,
+      "attack": 35,
+      "armor": 15,
+      "speed": 26,
+      "abilities": [
+        "golpe",
+        "cabezazo"
+      ],
+      "passive": "",
+      "art_normal": "res://assets/art/creatures/moschops.png",
+      "art_glow": "",
+      "background": "res://assets/art/backgrounds/bg_terrestre_01.jpg"
+    },
+    {
+      "id": "ophiacodon",
+      "name_es": "Ophiacodon",
+      "name_en": "Ophiacodon",
+      "era": "Paleozoico",
+      "subclass": "Terrestre",
+      "rarity": "Bronce",
+      "amber_cost": 2,
+      "hp": 40,
+      "attack": 70,
+      "armor": 0,
+      "speed": 39,
+      "abilities": [
+        "mordisco",
+        "desarme_bestial"
+      ],
+      "passive": "entrada_fugaz",
+      "art_normal": "res://assets/art/creatures/ophiacodon.png",
+      "art_glow": "",
+      "background": "res://assets/art/backgrounds/bg_terrestre_02.jpg"
+    },
+    {
+      "id": "pulmonoscorpius",
+      "name_es": "Pulmonoscorpius",
+      "name_en": "Pulmonoscorpius",
+      "era": "Paleozoico",
+      "subclass": "Terrestre",
+      "rarity": "Bronce",
+      "amber_cost": 4,
+      "hp": 55,
+      "attack": 55,
+      "armor": 15,
+      "speed": 48,
+      "abilities": [
+        "picotazo_hiriente",
+        "mutilacion"
+      ],
+      "passive": "",
+      "art_normal": "res://assets/art/creatures/pulmonoscorpius.png",
+      "art_glow": "res://assets/art/creatures/pulmonoscorpius_glow.png",
+      "background": "res://assets/art/backgrounds/bg_terrestre_03.jpg"
+    },
+    {
+      "id": "prionosuchus",
+      "name_es": "Prionosuchus",
+      "name_en": "Prionosuchus",
+      "era": "Paleozoico",
+      "subclass": "Anfibio",
+      "rarity": "Plata",
+      "amber_cost": 4,
+      "hp": 80,
+      "attack": 40,
+      "armor": 0,
+      "speed": 37,
+      "abilities": [
+        "golpe",
+        "empantanar"
+      ],
+      "passive": "",
+      "art_normal": "res://assets/art/creatures/prionosuchus.png",
+      "art_glow": "res://assets/art/creatures/prionosuchus_glow.png",
+      "background": "res://assets/art/backgrounds/bg_anfibio_02.jpg"
+    },
+    {
+      "id": "tiktaalik",
+      "name_es": "Tiktaalik",
+      "name_en": "Tiktaalik",
+      "era": "Paleozoico",
+      "subclass": "Anfibio",
+      "rarity": "Oro",
+      "amber_cost": 6,
+      "hp": 130,
+      "attack": 55,
+      "armor": 0,
+      "speed": 63,
+      "abilities": [
+        "golpe",
+        "diezmar"
+      ],
+      "passive": "",
+      "art_normal": "res://assets/art/creatures/tiktaalik.png",
+      "art_glow": "res://assets/art/creatures/tiktaalik_glow.png",
+      "background": "res://assets/art/backgrounds/bg_anfibio_03.jpg"
+    },
+    {
+      "id": "carnotaurus",
+      "name_es": "Carnotaurus",
+      "name_en": "Carnotaurus",
+      "era": "Mesozoico",
+      "subclass": "Terrestre",
+      "rarity": "Bronce",
+      "amber_cost": 4,
+      "hp": 55,
+      "attack": 50,
+      "armor": 0,
+      "speed": 70,
+      "abilities": [
+        "zampar",
+        "carga"
+      ],
+      "passive": "",
+      "art_normal": "res://assets/art/creatures/carnotaurus.png",
+      "art_glow": "res://assets/art/creatures/carnotaurus_glow.png",
+      "background": "res://assets/art/backgrounds/bg_terrestre_04.jpg"
+    },
+    {
+      "id": "concavenator",
+      "name_es": "Concavenator",
+      "name_en": "Concavenator",
+      "era": "Mesozoico",
+      "subclass": "Terrestre",
+      "rarity": "Oro",
+      "amber_cost": 5,
+      "hp": 75,
+      "attack": 70,
+      "armor": 0,
+      "speed": 65,
+      "abilities": [
+        "mordisco_fatal",
+        "desarme_bestial"
+      ],
+      "passive": "",
+      "art_normal": "res://assets/art/creatures/concavenator.png",
+      "art_glow": "res://assets/art/creatures/concavenator_glow.png",
+      "background": "res://assets/art/backgrounds/bg_terrestre_05.jpg"
+    },
+    {
+      "id": "dakosaurus",
+      "name_es": "Dakosaurus",
+      "name_en": "Dakosaurus",
+      "era": "Mesozoico",
+      "subclass": "Acuático",
+      "rarity": "Bronce",
+      "amber_cost": 3,
+      "hp": 50,
+      "attack": 55,
+      "armor": 0,
+      "speed": 63,
+      "abilities": [
+        "mordisco",
+        "aranazo"
+      ],
+      "passive": "entrada_fugaz",
+      "art_normal": "res://assets/art/creatures/dakosaurus.png",
+      "art_glow": "res://assets/art/creatures/dakosaurus_glow.png",
+      "background": "res://assets/art/backgrounds/bg_acuatico_01.jpg"
+    },
+    {
+      "id": "darwinopterus",
+      "name_es": "Darwinopterus",
+      "name_en": "Darwinopterus",
+      "era": "Mesozoico",
+      "subclass": "Volador",
+      "rarity": "Bronce",
+      "amber_cost": 2,
+      "hp": 55,
+      "attack": 30,
+      "armor": 0,
+      "speed": 84,
+      "abilities": [
+        "asalto_aereo",
+        "persecucion"
+      ],
+      "passive": "contra_ira",
+      "art_normal": "",
+      "art_glow": "",
+      "background": "res://assets/art/backgrounds/bg_volador_03.jpg"
+    },
+    {
+      "id": "dearc",
+      "name_es": "Dearc",
+      "name_en": "Dearc",
+      "era": "Mesozoico",
+      "subclass": "Volador",
+      "rarity": "Bronce",
+      "amber_cost": 2,
+      "hp": 40,
+      "attack": 30,
+      "armor": 0,
+      "speed": 77,
+      "abilities": [
+        "aranazo_lacerante",
+        "enrabiar"
+      ],
+      "passive": "contra_intimidacion",
+      "art_normal": "res://assets/art/creatures/dearc.png",
+      "art_glow": "res://assets/art/creatures/dearc_glow.png",
+      "background": "res://assets/art/backgrounds/bg_volador_04.jpg"
+    },
+    {
+      "id": "europejara",
+      "name_es": "Europejara",
+      "name_en": "Europejara",
+      "era": "Mesozoico",
+      "subclass": "Volador",
+      "rarity": "Plata",
+      "amber_cost": 2,
+      "hp": 60,
+      "attack": 30,
+      "armor": 0,
+      "speed": 72,
+      "abilities": [
+        "picotazo_hiriente",
+        "respiro_y_descanso"
+      ],
+      "passive": "entrada_feroz",
+      "art_normal": "res://assets/art/creatures/europejara.png",
+      "art_glow": "",
+      "background": "res://assets/art/backgrounds/bg_volador_05.jpg"
+    },
+    {
+      "id": "gigantspinosaurus",
+      "name_es": "Gigantspinosaurus",
+      "name_en": "Gigantspinosaurus",
+      "era": "Mesozoico",
+      "subclass": "Terrestre",
+      "rarity": "Bronce",
+      "amber_cost": 3,
+      "hp": 60,
+      "attack": 30,
+      "armor": 15,
+      "speed": 29,
+      "abilities": [
+        "golpe_de_cola",
+        "bramido"
+      ],
+      "passive": "contramordisco",
+      "art_normal": "",
+      "art_glow": "",
+      "background": "res://assets/art/backgrounds/bg_terrestre_06.jpg"
+    },
+    {
+      "id": "hesperornis",
+      "name_es": "Hesperornis",
+      "name_en": "Hesperornis",
+      "era": "Mesozoico",
+      "subclass": "Anfibio",
+      "rarity": "Bronce",
+      "amber_cost": 3,
+      "hp": 40,
+      "attack": 55,
+      "armor": 0,
+      "speed": 65,
+      "abilities": [
+        "picotazo",
+        "remolino"
+      ],
+      "passive": "",
+      "art_normal": "res://assets/art/creatures/hesperornis.png",
+      "art_glow": "res://assets/art/creatures/hesperornis_glow.png",
+      "background": "res://assets/art/backgrounds/bg_anfibio_04.jpg"
+    },
+    {
+      "id": "mastodonsaurus",
+      "name_es": "Mastodonsaurus",
+      "name_en": "Mastodonsaurus",
+      "era": "Mesozoico",
+      "subclass": "Anfibio",
+      "rarity": "Bronce",
+      "amber_cost": 4,
+      "hp": 70,
+      "attack": 40,
+      "armor": 0,
+      "speed": 43,
+      "abilities": [
+        "zampar",
+        "agua_fangosa"
+      ],
+      "passive": "",
+      "art_normal": "",
+      "art_glow": "",
+      "background": "res://assets/art/backgrounds/bg_anfibio_05.jpg"
+    },
+    {
+      "id": "monolophosaurus",
+      "name_es": "Monolophosaurus",
+      "name_en": "Monolophosaurus",
+      "era": "Mesozoico",
+      "subclass": "Terrestre",
+      "rarity": "Bronce",
+      "amber_cost": 2,
+      "hp": 55,
+      "attack": 45,
+      "armor": 0,
+      "speed": 54,
+      "abilities": [
+        "aranazo",
+        "mutilacion"
+      ],
+      "passive": "entrada_fugaz",
+      "art_normal": "res://assets/art/creatures/monolophosaurus.png",
+      "art_glow": "res://assets/art/creatures/monolophosaurus_glow.png",
+      "background": "res://assets/art/backgrounds/bg_terrestre_01.jpg"
+    },
+    {
+      "id": "lariosaurus",
+      "name_es": "Lariosaurus",
+      "name_en": "Lariosaurus",
+      "era": "Mesozoico",
+      "subclass": "Acuático",
+      "rarity": "Bronce",
+      "amber_cost": 3,
+      "hp": 50,
+      "attack": 50,
+      "armor": 0,
+      "speed": 59,
+      "abilities": [
+        "asalto_purificador",
+        "rompeolas"
+      ],
+      "passive": "entrada_sanadora",
+      "art_normal": "",
+      "art_glow": "",
+      "background": "res://assets/art/backgrounds/bg_acuatico_02.jpg"
+    },
+    {
+      "id": "liopleurodon",
+      "name_es": "Liopleurodon",
+      "name_en": "Liopleurodon",
+      "era": "Mesozoico",
+      "subclass": "Acuático",
+      "rarity": "Bronce",
+      "amber_cost": 5,
+      "hp": 75,
+      "attack": 30,
+      "armor": 0,
+      "speed": 58,
+      "abilities": [
+        "mordisco",
+        "rompeolas"
+      ],
+      "passive": "",
+      "art_normal": "res://assets/art/creatures/liopleurodon.png",
+      "art_glow": "res://assets/art/creatures/liopleurodon_glow.png",
+      "background": "res://assets/art/backgrounds/bg_acuatico_03.jpg"
+    },
+    {
+      "id": "parapuzosia",
+      "name_es": "Parapuzosia",
+      "name_en": "Parapuzosia",
+      "era": "Mesozoico",
+      "subclass": "Acuático",
+      "rarity": "Bronce",
+      "amber_cost": 3,
+      "hp": 45,
+      "attack": 30,
+      "armor": 30,
+      "speed": 17,
+      "abilities": [
+        "golpe",
+        "refugio"
+      ],
+      "passive": "",
+      "art_normal": "res://assets/art/creatures/parapuzosia.png",
+      "art_glow": "res://assets/art/creatures/parapuzosia_glow.png",
+      "background": "res://assets/art/backgrounds/bg_acuatico_04.jpg"
+    },
+    {
+      "id": "pterodaustro",
+      "name_es": "Pterodaustro",
+      "name_en": "Pterodaustro",
+      "era": "Mesozoico",
+      "subclass": "Volador",
+      "rarity": "Bronce",
+      "amber_cost": 2,
+      "hp": 55,
+      "attack": 50,
+      "armor": 0,
+      "speed": 74,
+      "abilities": [
+        "picotazo",
+        "borrasca"
+      ],
+      "passive": "contradesarme",
+      "art_normal": "res://assets/art/creatures/pterodaustro.png",
+      "art_glow": "",
+      "background": "res://assets/art/backgrounds/bg_volador_06.jpg"
+    },
+    {
+      "id": "quetzalcoatlus",
+      "name_es": "Quetzalcoatlus",
+      "name_en": "Quetzalcoatlus",
+      "era": "Mesozoico",
+      "subclass": "Volador",
+      "rarity": "Plata",
+      "amber_cost": 6,
+      "hp": 90,
+      "attack": 70,
+      "armor": 0,
+      "speed": 38,
+      "abilities": [
+        "picotazo",
+        "ventaja_de_blindaje"
+      ],
+      "passive": "",
+      "art_normal": "",
+      "art_glow": "",
+      "background": "res://assets/art/backgrounds/bg_volador_01.jpg"
+    },
+    {
+      "id": "spinosaurus",
+      "name_es": "Spinosaurus",
+      "name_en": "Spinosaurus",
+      "era": "Mesozoico",
+      "subclass": "Anfibio",
+      "rarity": "Plata",
+      "amber_cost": 5,
+      "hp": 90,
+      "attack": 50,
+      "armor": 0,
+      "speed": 54,
+      "abilities": [
+        "aranazo_lacerante",
+        "mordisco_sanador"
+      ],
+      "passive": "entrada_hiriente",
+      "art_normal": "res://assets/art/creatures/spinosaurus.png",
+      "art_glow": "res://assets/art/creatures/spinosaurus_glow.png",
+      "background": "res://assets/art/backgrounds/bg_anfibio_06.jpg"
+    },
+    {
+      "id": "smilosuchus",
+      "name_es": "Smilosuchus",
+      "name_en": "Smilosuchus",
+      "era": "Mesozoico",
+      "subclass": "Anfibio",
+      "rarity": "Bronce",
+      "amber_cost": 3,
+      "hp": 60,
+      "attack": 50,
+      "armor": 5,
+      "speed": 44,
+      "abilities": [
+        "golpe_de_cola",
+        "desarme_bestial"
+      ],
+      "passive": "contrafortalecimiento",
+      "art_normal": "",
+      "art_glow": "",
+      "background": "res://assets/art/backgrounds/bg_anfibio_01.jpg"
+    },
+    {
+      "id": "triceratops",
+      "name_es": "Triceratops",
+      "name_en": "Triceratops",
+      "era": "Mesozoico",
+      "subclass": "Terrestre",
+      "rarity": "Plata",
+      "amber_cost": 5,
+      "hp": 100,
+      "attack": 55,
+      "armor": 10,
+      "speed": 36,
+      "abilities": [
+        "embestida",
+        "carga"
+      ],
+      "passive": "",
+      "art_normal": "res://assets/art/creatures/triceratops.png",
+      "art_glow": "res://assets/art/creatures/triceratops_glow.png",
+      "background": "res://assets/art/backgrounds/bg_terrestre_02.jpg"
+    },
+    {
+      "id": "turiasaurus",
+      "name_es": "Turiasaurus",
+      "name_en": "Turiasaurus",
+      "era": "Mesozoico",
+      "subclass": "Terrestre",
+      "rarity": "Bronce",
+      "amber_cost": 4,
+      "hp": 130,
+      "attack": 35,
+      "armor": 0,
+      "speed": 11,
+      "abilities": [
+        "golpe_de_cola",
+        "temblor"
+      ],
+      "passive": "",
+      "art_normal": "res://assets/art/creatures/turiasaurus.png",
+      "art_glow": "res://assets/art/creatures/turiasaurus_glow.png",
+      "background": "res://assets/art/backgrounds/bg_terrestre_03.jpg"
+    },
+    {
+      "id": "tyrannosaurus",
+      "name_es": "Tyrannosaurus",
+      "name_en": "Tyrannosaurus",
+      "era": "Mesozoico",
+      "subclass": "Terrestre",
+      "rarity": "Oro",
+      "amber_cost": 7,
+      "hp": 135,
+      "attack": 95,
+      "armor": 0,
+      "speed": 18,
+      "abilities": [
+        "remezon",
+        "mordisco_tirano"
+      ],
+      "passive": "",
+      "art_normal": "",
+      "art_glow": "",
+      "background": "res://assets/art/backgrounds/bg_terrestre_04.jpg"
+    },
+    {
+      "id": "aguila_de_haast",
+      "name_es": "Águila De Haast",
+      "name_en": "Haast's Eagle",
+      "era": "Cenozoico",
+      "subclass": "Volador",
+      "rarity": "Plata",
+      "amber_cost": 3,
+      "hp": 70,
+      "attack": 45,
+      "armor": 0,
+      "speed": 69,
+      "abilities": [
+        "asalto_aereo",
+        "talones_furiosos"
+      ],
+      "passive": "",
+      "art_normal": "",
+      "art_glow": "",
+      "background": "res://assets/art/backgrounds/bg_volador_02.jpg"
+    },
+    {
+      "id": "ambulocetus",
+      "name_es": "Ambulocetus",
+      "name_en": "Ambulocetus",
+      "era": "Cenozoico",
+      "subclass": "Anfibio",
+      "rarity": "Bronce",
+      "amber_cost": 4,
+      "hp": 60,
+      "attack": 30,
+      "armor": 0,
+      "speed": 49,
+      "abilities": [
+        "zampar",
+        "teratogenico"
+      ],
+      "passive": "",
+      "art_normal": "res://assets/art/creatures/ambulocetus.png",
+      "art_glow": "res://assets/art/creatures/ambulocetus_glow.png",
+      "background": "res://assets/art/backgrounds/bg_anfibio_02.jpg"
+    },
+    {
+      "id": "alca_gigante",
+      "name_es": "Alca Gigante",
+      "name_en": "Great Auk",
+      "era": "Cenozoico",
+      "subclass": "Anfibio",
+      "rarity": "Bronce",
+      "amber_cost": 4,
+      "hp": 70,
+      "attack": 50,
+      "armor": 0,
+      "speed": 54,
+      "abilities": [
+        "acicalar",
+        "zampar"
+      ],
+      "passive": "entrada_hiriente",
+      "art_normal": "res://assets/art/creatures/alca_gigante.png",
+      "art_glow": "res://assets/art/creatures/alca_gigante_glow.png",
+      "background": "res://assets/art/backgrounds/bg_anfibio_03.jpg"
+    },
+    {
+      "id": "arctodus",
+      "name_es": "Arctodus",
+      "name_en": "Arctodus",
+      "era": "Cenozoico",
+      "subclass": "Terrestre",
+      "rarity": "Bronce",
+      "amber_cost": 4,
+      "hp": 65,
+      "attack": 70,
+      "armor": 5,
+      "speed": 29,
+      "abilities": [
+        "mordisco",
+        "desarme_bestial"
+      ],
+      "passive": "contradeceleracion",
+      "art_normal": "res://assets/art/creatures/arctodus.png",
+      "art_glow": "res://assets/art/creatures/arctodus_glow.png",
+      "background": "res://assets/art/backgrounds/bg_terrestre_05.jpg"
+    },
+    {
+      "id": "argentavis",
+      "name_es": "Argentavis",
+      "name_en": "Argentavis",
+      "era": "Cenozoico",
+      "subclass": "Volador",
+      "rarity": "Oro",
+      "amber_cost": 5,
+      "hp": 95,
+      "attack": 45,
+      "armor": 0,
+      "speed": 78,
+      "abilities": [
+        "picotazo",
+        "tornado"
+      ],
+      "passive": "",
+      "art_normal": "res://assets/art/creatures/argentavis.png",
+      "art_glow": "res://assets/art/creatures/argentavis_glow.png",
+      "background": "res://assets/art/backgrounds/bg_volador_03.jpg"
+    },
+    {
+      "id": "chalicotherium",
+      "name_es": "Chalicotherium",
+      "name_en": "Chalicotherium",
+      "era": "Cenozoico",
+      "subclass": "Terrestre",
+      "rarity": "Bronce",
+      "amber_cost": 4,
+      "hp": 65,
+      "attack": 40,
+      "armor": 0,
+      "speed": 41,
+      "abilities": [
+        "aranazo_lacerante",
+        "arrojaarena"
+      ],
+      "passive": "",
+      "art_normal": "res://assets/art/creatures/chalicotherium.png",
+      "art_glow": "",
+      "background": "res://assets/art/backgrounds/bg_terrestre_06.jpg"
+    },
+    {
+      "id": "desmodus_draculae",
+      "name_es": "Desmodus draculae",
+      "name_en": "Desmodus draculae",
+      "era": "Cenozoico",
+      "subclass": "Volador",
+      "rarity": "Bronce",
+      "amber_cost": 4,
+      "hp": 65,
+      "attack": 55,
+      "armor": 0,
+      "speed": 72,
+      "abilities": [
+        "chupasangres",
+        "mordisco"
+      ],
+      "passive": "entrada_fugaz",
+      "art_normal": "",
+      "art_glow": "",
+      "background": "res://assets/art/backgrounds/bg_volador_04.jpg"
+    },
+    {
+      "id": "dromornis",
+      "name_es": "Dromornis",
+      "name_en": "Dromornis",
+      "era": "Cenozoico",
+      "subclass": "Terrestre",
+      "rarity": "Plata",
+      "amber_cost": 3,
+      "hp": 75,
+      "attack": 30,
+      "armor": 0,
+      "speed": 58,
+      "abilities": [
+        "aranazo",
+        "respiro_y_descanso"
+      ],
+      "passive": "contramordisco",
+      "art_normal": "res://assets/art/creatures/dromornis.png",
+      "art_glow": "res://assets/art/creatures/dromornis_glow.png",
+      "background": "res://assets/art/backgrounds/bg_terrestre_01.jpg"
+    },
+    {
+      "id": "elasmotherium",
+      "name_es": "Elasmotherium",
+      "name_en": "Elasmotherium",
+      "era": "Cenozoico",
+      "subclass": "Terrestre",
+      "rarity": "Bronce",
+      "amber_cost": 3,
+      "hp": 60,
+      "attack": 50,
+      "armor": 10,
+      "speed": 43,
+      "abilities": [
+        "embestida",
+        "cabezazo"
+      ],
+      "passive": "contra_ira",
+      "art_normal": "",
+      "art_glow": "",
+      "background": "res://assets/art/backgrounds/bg_terrestre_02.jpg"
+    },
+    {
+      "id": "icaronicteryx",
+      "name_es": "Icaronicteryx",
+      "name_en": "Icaronicteryx",
+      "era": "Cenozoico",
+      "subclass": "Volador",
+      "rarity": "Bronce",
+      "amber_cost": 4,
+      "hp": 65,
+      "attack": 30,
+      "armor": 0,
+      "speed": 84,
+      "abilities": [
+        "mordisco_sanador",
+        "golpe_de_ala"
+      ],
+      "passive": "contrasangrado",
+      "art_normal": "",
+      "art_glow": "",
+      "background": "res://assets/art/backgrounds/bg_volador_05.jpg"
+    },
+    {
+      "id": "mamut_colombino",
+      "name_es": "Mamut Colombino",
+      "name_en": "Columbian Mammoth",
+      "era": "Cenozoico",
+      "subclass": "Terrestre",
+      "rarity": "Plata",
+      "amber_cost": 4,
+      "hp": 90,
+      "attack": 55,
+      "armor": 5,
+      "speed": 39,
+      "abilities": [
+        "golpe",
+        "temblor"
+      ],
+      "passive": "",
+      "art_normal": "",
+      "art_glow": "",
+      "background": "res://assets/art/backgrounds/bg_terrestre_03.jpg"
+    },
+    {
+      "id": "megalodon",
+      "name_es": "Megalodon",
+      "name_en": "Megalodon",
+      "era": "Cenozoico",
+      "subclass": "Acuático",
+      "rarity": "Oro",
+      "amber_cost": 6,
+      "hp": 140,
+      "attack": 50,
+      "armor": 0,
+      "speed": 35,
+      "abilities": [
+        "golpe_de_cola",
+        "mordisco_rabioso"
+      ],
+      "passive": "",
+      "art_normal": "",
+      "art_glow": "",
+      "background": "res://assets/art/backgrounds/bg_acuatico_05.jpg"
+    },
+    {
+      "id": "garza_de_flores",
+      "name_es": "Garza de flores",
+      "name_en": "Giant Marabou of Flores",
+      "era": "Cenozoico",
+      "subclass": "Volador",
+      "rarity": "Bronce",
+      "amber_cost": 3,
+      "hp": 45,
+      "attack": 50,
+      "armor": 0,
+      "speed": 67,
+      "abilities": [
+        "picotazo_hiriente",
+        "talones_furiosos"
+      ],
+      "passive": "entrada_amedrentadora",
+      "art_normal": "res://assets/art/creatures/garza_de_flores.png",
+      "art_glow": "",
+      "background": "res://assets/art/backgrounds/bg_volador_06.jpg"
+    },
+    {
+      "id": "livyatan",
+      "name_es": "Livyatan",
+      "name_en": "Livyatan",
+      "era": "Cenozoico",
+      "subclass": "Acuático",
+      "rarity": "Oro",
+      "amber_cost": 7,
+      "hp": 155,
+      "attack": 50,
+      "armor": 0,
+      "speed": 47,
+      "abilities": [
+        "cabezazo",
+        "remolino"
+      ],
+      "passive": "",
+      "art_normal": "",
+      "art_glow": "",
+      "background": "res://assets/art/backgrounds/bg_acuatico_06.jpg"
+    },
+    {
+      "id": "odobenocetops",
+      "name_es": "Odobenocetops",
+      "name_en": "Odobenocetops",
+      "era": "Cenozoico",
+      "subclass": "Acuático",
+      "rarity": "Bronce",
+      "amber_cost": 4,
+      "hp": 70,
+      "attack": 40,
+      "armor": 0,
+      "speed": 63,
+      "abilities": [
+        "cabezazo",
+        "remolino"
+      ],
+      "passive": "entrada_ralentizante",
+      "art_normal": "res://assets/art/creatures/odobenocetops.png",
+      "art_glow": "res://assets/art/creatures/odobenocetops_glow.png",
+      "background": "res://assets/art/backgrounds/bg_acuatico_01.jpg"
+    },
+    {
+      "id": "pelagornis",
+      "name_es": "Pelagornis",
+      "name_en": "Pelagornis",
+      "era": "Cenozoico",
+      "subclass": "Volador",
+      "rarity": "Bronce",
+      "amber_cost": 3,
+      "hp": 90,
+      "attack": 30,
+      "armor": 0,
+      "speed": 74,
+      "abilities": [
+        "picotazo",
+        "golpe_de_ala"
+      ],
+      "passive": "",
+      "art_normal": "",
+      "art_glow": "",
+      "background": "res://assets/art/backgrounds/bg_volador_01.jpg"
+    },
+    {
+      "id": "purussaurus",
+      "name_es": "Purussaurus",
+      "name_en": "Purussaurus",
+      "era": "Cenozoico",
+      "subclass": "Anfibio",
+      "rarity": "Bronce",
+      "amber_cost": 5,
+      "hp": 70,
+      "attack": 65,
+      "armor": 15,
+      "speed": 39,
+      "abilities": [
+        "zampar",
+        "desarme_bestial"
+      ],
+      "passive": "",
+      "art_normal": "res://assets/art/creatures/purussaurus.png",
+      "art_glow": "res://assets/art/creatures/purussaurus_glow.png",
+      "background": "res://assets/art/backgrounds/bg_anfibio_04.jpg"
+    },
+    {
+      "id": "thalassocnus",
+      "name_es": "Thalassocnus",
+      "name_en": "Thalassocnus",
+      "era": "Cenozoico",
+      "subclass": "Anfibio",
+      "rarity": "Bronce",
+      "amber_cost": 3,
+      "hp": 70,
+      "attack": 60,
+      "armor": 0,
+      "speed": 40,
+      "abilities": [
+        "aranazo",
+        "acicalar"
+      ],
+      "passive": "entrada_sanadora",
+      "art_normal": "",
+      "art_glow": "",
+      "background": "res://assets/art/backgrounds/bg_anfibio_05.jpg"
+    },
+    {
+      "id": "thylacoleo",
+      "name_es": "Thylacoleo",
+      "name_en": "Thylacoleo",
+      "era": "Cenozoico",
+      "subclass": "Terrestre",
+      "rarity": "Bronce",
+      "amber_cost": 3,
+      "hp": 60,
+      "attack": 50,
+      "armor": 0,
+      "speed": 52,
+      "abilities": [
+        "mordisco_fatal",
+        "intimidar"
+      ],
+      "passive": "",
+      "art_normal": "res://assets/art/creatures/thylacoleo.png",
+      "art_glow": "res://assets/art/creatures/thylacoleo_glow.png",
+      "background": "res://assets/art/backgrounds/bg_terrestre_04.jpg"
+    },
+    {
+      "id": "titanoboa",
+      "name_es": "Titanoboa",
+      "name_en": "Titanoboa",
+      "era": "Cenozoico",
+      "subclass": "Anfibio",
+      "rarity": "Plata",
+      "amber_cost": 4,
+      "hp": 70,
+      "attack": 55,
+      "armor": 0,
+      "speed": 34,
+      "abilities": [
+        "zampar",
+        "ventaja_de_blindaje"
+      ],
+      "passive": "",
+      "art_normal": "res://assets/art/creatures/titanoboa.png",
+      "art_glow": "res://assets/art/creatures/titanoboa_glow.png",
+      "background": "res://assets/art/backgrounds/bg_anfibio_06.jpg"
+    },
+    {
+      "id": "varanus_priscus",
+      "name_es": "Varanus priscus",
+      "name_en": "Varanus priscus",
+      "era": "Cenozoico",
+      "subclass": "Terrestre",
+      "rarity": "Bronce",
+      "amber_cost": 4,
+      "hp": 60,
+      "attack": 50,
+      "armor": 0,
+      "speed": 49,
+      "abilities": [
+        "aranazo_lacerante",
+        "mordisco_rabioso"
+      ],
+      "passive": "",
+      "art_normal": "res://assets/art/creatures/varanus_priscus.png",
+      "art_glow": "res://assets/art/creatures/varanus_priscus_glow.png",
+      "background": "res://assets/art/backgrounds/bg_terrestre_05.jpg"
+    }
+  ],
+  "abilities": [
+    {
+      "id": "acicalar",
+      "name_es": "Acicalar",
+      "name_en": "Groom",
+      "is_charged": false,
+      "amber_cost": 0,
+      "cooldown": 0,
+      "initial_delay": 0,
+      "has_priority": false,
+      "effects": [
+        {
+          "kind": "HEAL_MAX_HP_PCT",
+          "target": "SINGLE_ALLY",
+          "value": 20
+        }
+      ]
+    },
+    {
+      "id": "asalto_aereo",
+      "name_es": "Asalto Aéreo",
+      "name_en": "Aerial Assault",
+      "is_charged": false,
+      "amber_cost": 0,
+      "cooldown": 0,
+      "initial_delay": 0,
+      "has_priority": true,
+      "effects": [
+        {
+          "kind": "DAMAGE",
+          "target": "SINGLE_ENEMY",
+          "value": 0.34
+        }
+      ]
+    },
+    {
+      "id": "asalto_purificador",
+      "name_es": "Asalto Purificador",
+      "name_en": "Purifying Strike",
+      "is_charged": false,
+      "amber_cost": 0,
+      "cooldown": 0,
+      "initial_delay": 0,
+      "has_priority": false,
+      "effects": [
+        {
+          "kind": "DAMAGE",
+          "target": "SINGLE_ENEMY",
+          "value": 0.5
+        },
+        {
+          "kind": "CLEANSE_DEBUFFS",
+          "target": "SELF"
+        }
+      ]
+    },
+    {
+      "id": "aranazo",
+      "name_es": "Arañazo",
+      "name_en": "Scratch",
+      "is_charged": false,
+      "amber_cost": 0,
+      "cooldown": 0,
+      "initial_delay": 0,
+      "has_priority": false,
+      "effects": [
+        {
+          "kind": "DAMAGE",
+          "target": "SINGLE_ENEMY",
+          "value": 0.5
+        },
+        {
+          "kind": "MOD_SPEED_FLAT",
+          "target": "SELF",
+          "value": 10,
+          "duration": 1
+        }
+      ]
+    },
+    {
+      "id": "aranazo_lacerante",
+      "name_es": "Arañazo Lacerante",
+      "name_en": "Lacerating Claw",
+      "is_charged": false,
+      "amber_cost": 0,
+      "cooldown": 0,
+      "initial_delay": 0,
+      "has_priority": false,
+      "effects": [
+        {
+          "kind": "DAMAGE",
+          "target": "SINGLE_ENEMY",
+          "value": 0.3
+        },
+        {
+          "kind": "BLEED",
+          "target": "SINGLE_ENEMY",
+          "duration": 2,
+          "dice_count": 2,
+          "dice_sides": 4
+        }
+      ]
+    },
+    {
+      "id": "cabezazo",
+      "name_es": "Cabezazo",
+      "name_en": "Headbutt",
+      "is_charged": false,
+      "amber_cost": 0,
+      "cooldown": 0,
+      "initial_delay": 0,
+      "has_priority": false,
+      "effects": [
+        {
+          "kind": "DAMAGE",
+          "target": "SINGLE_ENEMY",
+          "value": 0.5
+        },
+        {
+          "kind": "MOD_ARMOR_FLAT",
+          "target": "SELF",
+          "value": 5,
+          "duration": 2
+        }
+      ]
+    },
+    {
+      "id": "chupasangres",
+      "name_es": "Chupasangres",
+      "name_en": "Bloodsucker",
+      "is_charged": false,
+      "amber_cost": 1,
+      "cooldown": 0,
+      "initial_delay": 0,
+      "has_priority": false,
+      "effects": [
+        {
+          "kind": "DAMAGE",
+          "target": "SINGLE_ENEMY",
+          "value": 0.3
+        },
+        {
+          "kind": "BLEED",
+          "target": "SINGLE_ENEMY",
+          "duration": 1,
+          "dice_count": 3,
+          "dice_sides": 6
+        },
+        {
+          "kind": "HEAL_PCT_REGEN",
+          "target": "SELF",
+          "value": 15,
+          "duration": 1
+        }
+      ]
+    },
+    {
+      "id": "embestida",
+      "name_es": "Embestida",
+      "name_en": "Ram",
+      "is_charged": false,
+      "amber_cost": 0,
+      "cooldown": 0,
+      "initial_delay": 0,
+      "has_priority": false,
+      "effects": [
+        {
+          "kind": "DAMAGE",
+          "target": "SINGLE_ENEMY",
+          "value": 0.5
+        },
+        {
+          "kind": "DISPEL_ATK_SPD_BUFFS",
+          "target": "SINGLE_ENEMY"
+        }
+      ]
+    },
+    {
+      "id": "enrabiar",
+      "name_es": "Enrabiar",
+      "name_en": "Enrage",
+      "is_charged": false,
+      "amber_cost": 1,
+      "cooldown": 0,
+      "initial_delay": 0,
+      "has_priority": false,
+      "effects": [
+        {
+          "kind": "MOD_ATTACK_PCT",
+          "target": "SELF",
+          "value": 25,
+          "duration": 2
+        },
+        {
+          "kind": "HEAL_MAX_HP_PCT",
+          "target": "SELF",
+          "value": 20
+        }
+      ]
+    },
+    {
+      "id": "golpe",
+      "name_es": "Golpe",
+      "name_en": "Strike",
+      "is_charged": false,
+      "amber_cost": 0,
+      "cooldown": 0,
+      "initial_delay": 0,
+      "has_priority": false,
+      "effects": [
+        {
+          "kind": "DAMAGE",
+          "target": "SINGLE_ENEMY",
+          "value": 0.5
+        },
+        {
+          "kind": "MOD_ATTACK_PCT",
+          "target": "SINGLE_ENEMY",
+          "value": -25,
+          "duration": 1
+        }
+      ]
+    },
+    {
+      "id": "golpe_anfibio",
+      "name_es": "Golpe Anfibio",
+      "name_en": "Amphibious Strike",
+      "is_charged": false,
+      "amber_cost": 0,
+      "cooldown": 0,
+      "initial_delay": 0,
+      "has_priority": false,
+      "effects": [
+        {
+          "kind": "DAMAGE",
+          "target": "SINGLE_ENEMY",
+          "value": 0.5
+        },
+        {
+          "kind": "DISPEL_BUFFS",
+          "target": "SINGLE_ENEMY"
+        }
+      ]
+    },
+    {
+      "id": "golpe_de_cola",
+      "name_es": "Golpe de Cola",
+      "name_en": "Tail Whip",
+      "is_charged": false,
+      "amber_cost": 0,
+      "cooldown": 0,
+      "initial_delay": 0,
+      "has_priority": false,
+      "effects": [
+        {
+          "kind": "DAMAGE",
+          "target": "SINGLE_ENEMY",
+          "value": 0.67
+        },
+        {
+          "kind": "MOD_SPEED_FLAT",
+          "target": "SINGLE_ENEMY",
+          "value": -15,
+          "duration": 1
+        }
+      ]
+    },
+    {
+      "id": "mordisco",
+      "name_es": "Mordisco",
+      "name_en": "Bite",
+      "is_charged": false,
+      "amber_cost": 0,
+      "cooldown": 0,
+      "initial_delay": 0,
+      "has_priority": false,
+      "effects": [
+        {
+          "kind": "DAMAGE",
+          "target": "SINGLE_ENEMY",
+          "value": 0.5
+        },
+        {
+          "kind": "MOD_ATTACK_PCT",
+          "target": "SELF",
+          "value": 15,
+          "duration": 2
+        }
+      ]
+    },
+    {
+      "id": "mordisco_fatal",
+      "name_es": "Mordisco Fatal",
+      "name_en": "Fatal Bite",
+      "is_charged": false,
+      "amber_cost": 1,
+      "cooldown": 0,
+      "initial_delay": 0,
+      "has_priority": false,
+      "effects": [
+        {
+          "kind": "DAMAGE",
+          "target": "SINGLE_ENEMY",
+          "value": 0.75
+        },
+        {
+          "kind": "BLEED",
+          "target": "SINGLE_ENEMY",
+          "duration": 1,
+          "dice_count": 2,
+          "dice_sides": 8
+        }
+      ]
+    },
+    {
+      "id": "mordisco_sanador",
+      "name_es": "Mordisco Sanador",
+      "name_en": "Healing Bite",
+      "is_charged": false,
+      "amber_cost": 1,
+      "cooldown": 0,
+      "initial_delay": 0,
+      "has_priority": false,
+      "effects": [
+        {
+          "kind": "DAMAGE",
+          "target": "SINGLE_ENEMY",
+          "value": 0.67
+        },
+        {
+          "kind": "HEAL_DAMAGE_PCT",
+          "target": "SELF",
+          "value": 30
+        }
+      ]
+    },
+    {
+      "id": "picotazo",
+      "name_es": "Picotazo",
+      "name_en": "Peck",
+      "is_charged": false,
+      "amber_cost": 0,
+      "cooldown": 0,
+      "initial_delay": 0,
+      "has_priority": false,
+      "effects": [
+        {
+          "kind": "DAMAGE",
+          "target": "SINGLE_ENEMY",
+          "value": 0.5
+        },
+        {
+          "kind": "MOD_ARMOR_FLAT",
+          "target": "SINGLE_ENEMY",
+          "value": -10,
+          "duration": 2
+        }
+      ]
+    },
+    {
+      "id": "picotazo_hiriente",
+      "name_es": "Picotazo Hiriente",
+      "name_en": "Wounding Peck",
+      "is_charged": false,
+      "amber_cost": 0,
+      "cooldown": 0,
+      "initial_delay": 0,
+      "has_priority": false,
+      "effects": [
+        {
+          "kind": "DAMAGE",
+          "target": "SINGLE_ENEMY",
+          "value": 0.5
+        },
+        {
+          "kind": "BLEED",
+          "target": "SINGLE_ENEMY",
+          "duration": 1,
+          "dice_count": 1,
+          "dice_sides": 10
+        }
+      ]
+    },
+    {
+      "id": "remezon",
+      "name_es": "Remezón",
+      "name_en": "Tremor Shake",
+      "is_charged": false,
+      "amber_cost": 1,
+      "cooldown": 0,
+      "initial_delay": 0,
+      "has_priority": false,
+      "effects": [
+        {
+          "kind": "DAMAGE",
+          "target": "ALL_ENEMIES",
+          "value": 0.33
+        }
+      ]
+    },
+    {
+      "id": "reposar",
+      "name_es": "Reposar",
+      "name_en": "Rest",
+      "is_charged": false,
+      "amber_cost": 1,
+      "cooldown": 0,
+      "initial_delay": 0,
+      "has_priority": false,
+      "effects": [
+        {
+          "kind": "MOD_ARMOR_FLAT",
+          "target": "SELF",
+          "value": 10,
+          "duration": 1
+        },
+        {
+          "kind": "HEAL_PCT_REGEN",
+          "target": "SELF",
+          "value": 10,
+          "duration": 2
+        }
+      ]
+    },
+    {
+      "id": "zampar",
+      "name_es": "Zampar",
+      "name_en": "Chomp",
+      "is_charged": false,
+      "amber_cost": 0,
+      "cooldown": 0,
+      "initial_delay": 0,
+      "has_priority": false,
+      "effects": [
+        {
+          "kind": "DAMAGE",
+          "target": "SINGLE_ENEMY",
+          "value": 0.5
+        },
+        {
+          "kind": "HEAL_MAX_HP_PCT",
+          "target": "SELF",
+          "value": 15
+        }
+      ]
+    },
+    {
+      "id": "agua_fangosa",
+      "name_es": "Agua Fangosa",
+      "name_en": "Muddy Water",
+      "is_charged": true,
+      "amber_cost": 1,
+      "cooldown": 1,
+      "initial_delay": 0,
+      "has_priority": false,
+      "effects": [
+        {
+          "kind": "DAMAGE",
+          "target": "ALL_ENEMIES",
+          "value": 0.5
+        },
+        {
+          "kind": "DISPEL_BUFFS",
+          "target": "ALL_ENEMIES"
+        }
+      ]
+    },
+    {
+      "id": "anagenesis",
+      "name_es": "Anagénesis",
+      "name_en": "Anagenesis",
+      "is_charged": true,
+      "amber_cost": 2,
+      "cooldown": 3,
+      "initial_delay": 1,
+      "has_priority": false,
+      "effects": [
+        {
+          "kind": "CLEANSE_DEBUFFS",
+          "target": "ALL_ALLIES"
+        },
+        {
+          "kind": "MOD_SPEED_FLAT",
+          "target": "ALL_ALLIES",
+          "value": 10,
+          "duration": 2
+        },
+        {
+          "kind": "AMBER_REGEN",
+          "target": "SELF",
+          "value": 1,
+          "duration": 2
+        }
+      ]
+    },
+    {
+      "id": "arrojaarena",
+      "name_es": "Arrojaarena",
+      "name_en": "Sand Toss",
+      "is_charged": true,
+      "amber_cost": 2,
+      "cooldown": 2,
+      "initial_delay": 0,
+      "has_priority": false,
+      "effects": [
+        {
+          "kind": "DAMAGE",
+          "target": "SINGLE_ENEMY",
+          "value": 0.67
+        },
+        {
+          "kind": "MOD_ATTACK_PCT",
+          "target": "SINGLE_ENEMY",
+          "value": -25,
+          "duration": 1
+        },
+        {
+          "kind": "MOD_SPEED_FLAT",
+          "target": "SINGLE_ENEMY",
+          "value": -15,
+          "duration": 1
+        }
+      ]
+    },
+    {
+      "id": "aullido",
+      "name_es": "Aullido",
+      "name_en": "Howl",
+      "is_charged": true,
+      "amber_cost": 1,
+      "cooldown": 2,
+      "initial_delay": 0,
+      "has_priority": true,
+      "effects": [
+        {
+          "kind": "MOD_ATTACK_PCT",
+          "target": "SINGLE_ENEMY",
+          "value": -75,
+          "duration": 1
+        }
+      ]
+    },
+    {
+      "id": "borrasca",
+      "name_es": "Borrasca",
+      "name_en": "Gale",
+      "is_charged": true,
+      "amber_cost": 1,
+      "cooldown": 1,
+      "initial_delay": 0,
+      "has_priority": false,
+      "effects": [
+        {
+          "kind": "MOD_SPEED_FLAT",
+          "target": "ALL_ALLIES",
+          "value": 20,
+          "duration": 2
+        }
+      ]
+    },
+    {
+      "id": "bramido",
+      "name_es": "Bramido",
+      "name_en": "Bellow",
+      "is_charged": true,
+      "amber_cost": 1,
+      "cooldown": 2,
+      "initial_delay": 0,
+      "has_priority": true,
+      "effects": [
+        {
+          "kind": "MOD_ATTACK_PCT",
+          "target": "ALL_ALLIES",
+          "value": 50,
+          "duration": 2
+        }
+      ]
+    },
+    {
+      "id": "carga",
+      "name_es": "Carga",
+      "name_en": "Charge",
+      "is_charged": true,
+      "amber_cost": 2,
+      "cooldown": 2,
+      "initial_delay": 0,
+      "has_priority": false,
+      "effects": [
+        {
+          "kind": "DAMAGE",
+          "target": "SINGLE_ENEMY",
+          "value": 0.67
+        },
+        {
+          "kind": "FLINCH",
+          "target": "SINGLE_ENEMY",
+          "value": 1,
+          "duration": 1
+        }
+      ]
+    },
+    {
+      "id": "ciclon",
+      "name_es": "Ciclón",
+      "name_en": "Cyclone",
+      "is_charged": true,
+      "amber_cost": 1,
+      "cooldown": 1,
+      "initial_delay": 0,
+      "has_priority": false,
+      "effects": [
+        {
+          "kind": "MOD_SPEED_FLAT",
+          "target": "ALL_ENEMIES",
+          "value": -25,
+          "duration": 2
+        }
+      ]
+    },
+    {
+      "id": "desarme_bestial",
+      "name_es": "Desarme Bestial",
+      "name_en": "Beastly Sunder",
+      "is_charged": true,
+      "amber_cost": 1,
+      "cooldown": 2,
+      "initial_delay": 0,
+      "has_priority": false,
+      "effects": [
+        {
+          "kind": "MOD_ARMOR_FLAT",
+          "target": "SINGLE_ENEMY",
+          "value": -25,
+          "duration": 1
+        },
+        {
+          "kind": "DAMAGE",
+          "target": "SINGLE_ENEMY",
+          "value": 0.5
+        }
+      ]
+    },
+    {
+      "id": "despliegue_intimidante",
+      "name_es": "Despliegue Intimidante",
+      "name_en": "Intimidating Display",
+      "is_charged": true,
+      "amber_cost": 1,
+      "cooldown": 1,
+      "initial_delay": 1,
+      "has_priority": false,
+      "effects": [
+        {
+          "kind": "FLINCH",
+          "target": "SINGLE_ENEMY",
+          "value": 1,
+          "duration": 1
+        },
+        {
+          "kind": "MOD_ATTACK_PCT",
+          "target": "SINGLE_ENEMY",
+          "value": -25,
+          "duration": 2
+        }
+      ]
+    },
+    {
+      "id": "diezmar",
+      "name_es": "Diezmar",
+      "name_en": "Decimate",
+      "is_charged": true,
+      "amber_cost": 2,
+      "cooldown": 3,
+      "initial_delay": 1,
+      "has_priority": false,
+      "effects": [
+        {
+          "kind": "DISPEL_BUFFS",
+          "target": "ALL_ENEMIES"
+        },
+        {
+          "kind": "MOD_SPEED_FLAT",
+          "target": "ALL_ENEMIES",
+          "value": -20,
+          "duration": 2
+        },
+        {
+          "kind": "AMBER_DRAIN",
+          "target": "ALL_ENEMIES",
+          "value": 1,
+          "duration": 2
+        }
+      ]
+    },
+    {
+      "id": "empantanar",
+      "name_es": "Empantanar",
+      "name_en": "Bog Down",
+      "is_charged": true,
+      "amber_cost": 2,
+      "cooldown": 2,
+      "initial_delay": 1,
+      "has_priority": false,
+      "effects": [
+        {
+          "kind": "DISPEL_BUFFS",
+          "target": "ALL_ENEMIES"
+        },
+        {
+          "kind": "MOD_SPEED_FLAT",
+          "target": "ALL_ENEMIES",
+          "value": -20,
+          "duration": 2
+        },
+        {
+          "kind": "MOD_ATTACK_PCT",
+          "target": "ALL_ENEMIES",
+          "value": -30,
+          "duration": 2
+        }
+      ]
+    },
+    {
+      "id": "fortalecer",
+      "name_es": "Fortalecer",
+      "name_en": "Fortify",
+      "is_charged": true,
+      "amber_cost": 1,
+      "cooldown": 2,
+      "initial_delay": 0,
+      "has_priority": false,
+      "effects": [
+        {
+          "kind": "MOD_ARMOR_FLAT",
+          "target": "ALL_ALLIES",
+          "value": 10,
+          "duration": 2
+        },
+        {
+          "kind": "CLEANSE_DEBUFFS",
+          "target": "ALL_ALLIES"
+        }
+      ]
+    },
+    {
+      "id": "golpe_de_ala",
+      "name_es": "Golpe de Ala",
+      "name_en": "Wing Buffet",
+      "is_charged": true,
+      "amber_cost": 2,
+      "cooldown": 1,
+      "initial_delay": 0,
+      "has_priority": true,
+      "effects": [
+        {
+          "kind": "DAMAGE",
+          "target": "SINGLE_ENEMY",
+          "value": 0.67
+        },
+        {
+          "kind": "MOD_SPEED_FLAT",
+          "target": "SELF",
+          "value": 10,
+          "duration": 2
+        }
+      ]
+    },
+    {
+      "id": "intimidar",
+      "name_es": "Intimidar",
+      "name_en": "Intimidate",
+      "is_charged": true,
+      "amber_cost": 2,
+      "cooldown": 1,
+      "initial_delay": 0,
+      "has_priority": false,
+      "effects": [
+        {
+          "kind": "DAMAGE",
+          "target": "SINGLE_ENEMY",
+          "value": 0.67
+        },
+        {
+          "kind": "MOD_ATTACK_PCT",
+          "target": "SINGLE_ENEMY",
+          "value": -125,
+          "duration": 1
+        }
+      ]
+    },
+    {
+      "id": "mordisco_rabioso",
+      "name_es": "Mordisco Rabioso",
+      "name_en": "Raging Bite",
+      "is_charged": true,
+      "amber_cost": 1,
+      "cooldown": 1,
+      "initial_delay": 0,
+      "has_priority": false,
+      "effects": [
+        {
+          "kind": "DAMAGE",
+          "target": "SINGLE_ENEMY",
+          "value": 0.5
+        },
+        {
+          "kind": "MOD_ATTACK_PCT",
+          "target": "SELF",
+          "value": 30,
+          "duration": 2
+        }
+      ]
+    },
+    {
+      "id": "mordisco_tirano",
+      "name_es": "Mordisco Tirano",
+      "name_en": "Tyrant Bite",
+      "is_charged": true,
+      "amber_cost": 3,
+      "cooldown": 2,
+      "initial_delay": 1,
+      "has_priority": false,
+      "effects": [
+        {
+          "kind": "DAMAGE",
+          "target": "SINGLE_ENEMY",
+          "value": 0.75
+        },
+        {
+          "kind": "MOD_ARMOR_FLAT",
+          "target": "SINGLE_ENEMY",
+          "value": -15,
+          "duration": 2
+        },
+        {
+          "kind": "MOD_ATTACK_PCT",
+          "target": "SELF",
+          "value": 25,
+          "duration": 2
+        }
+      ]
+    },
+    {
+      "id": "mutacion_espontanea",
+      "name_es": "Mutación Espontánea",
+      "name_en": "Spontaneous Mutation",
+      "is_charged": true,
+      "amber_cost": 1,
+      "cooldown": 2,
+      "initial_delay": 0,
+      "has_priority": false,
+      "effects": [
+        {
+          "kind": "AMBER_REGEN",
+          "target": "SELF",
+          "value": 1,
+          "duration": 2
+        }
+      ]
+    },
+    {
+      "id": "mutilacion",
+      "name_es": "Mutilación",
+      "name_en": "Mutilate",
+      "is_charged": true,
+      "amber_cost": 2,
+      "cooldown": 2,
+      "initial_delay": 0,
+      "has_priority": false,
+      "effects": [
+        {
+          "kind": "DAMAGE",
+          "target": "SINGLE_ENEMY",
+          "value": 0.67
+        },
+        {
+          "kind": "BLEED",
+          "target": "SINGLE_ENEMY",
+          "duration": 2,
+          "dice_count": 1,
+          "dice_sides": 10
+        }
+      ]
+    },
+    {
+      "id": "persecucion",
+      "name_es": "Persecución",
+      "name_en": "Pursuit",
+      "is_charged": true,
+      "amber_cost": 1,
+      "cooldown": 1,
+      "initial_delay": 0,
+      "has_priority": true,
+      "effects": [
+        {
+          "kind": "DAMAGE",
+          "target": "SINGLE_ENEMY",
+          "value": 0.75
+        },
+        {
+          "kind": "MOD_SPEED_FLAT",
+          "target": "SINGLE_ENEMY",
+          "value": -15,
+          "duration": 1
+        }
+      ]
+    },
+    {
+      "id": "lacerar",
+      "name_es": "Lacerar",
+      "name_en": "Lacerate",
+      "is_charged": true,
+      "amber_cost": 2,
+      "cooldown": 2,
+      "initial_delay": 1,
+      "has_priority": false,
+      "effects": [
+        {
+          "kind": "DAMAGE",
+          "target": "SINGLE_ENEMY",
+          "value": 0.75
+        },
+        {
+          "kind": "BLEED",
+          "target": "SINGLE_ENEMY",
+          "duration": 3,
+          "dice_count": 2,
+          "dice_sides": 10
+        }
+      ]
+    },
+    {
+      "id": "refugio",
+      "name_es": "Refugio",
+      "name_en": "Shell Shelter",
+      "is_charged": true,
+      "amber_cost": 2,
+      "cooldown": 1,
+      "initial_delay": 0,
+      "has_priority": true,
+      "effects": [
+        {
+          "kind": "MOD_ARMOR_FLAT",
+          "target": "SELF",
+          "value": 20,
+          "duration": 1
+        }
+      ]
+    },
+    {
+      "id": "remolino",
+      "name_es": "Remolino",
+      "name_en": "Whirlpool",
+      "is_charged": true,
+      "amber_cost": 2,
+      "cooldown": 2,
+      "initial_delay": 1,
+      "has_priority": true,
+      "effects": [
+        {
+          "kind": "DAMAGE",
+          "target": "SINGLE_ENEMY",
+          "value": 0.5
+        },
+        {
+          "kind": "FLINCH",
+          "target": "SINGLE_ENEMY",
+          "value": 1,
+          "duration": 1
+        }
+      ]
+    },
+    {
+      "id": "reparacion",
+      "name_es": "Reparación",
+      "name_en": "Mend",
+      "is_charged": true,
+      "amber_cost": 2,
+      "cooldown": 2,
+      "initial_delay": 0,
+      "has_priority": true,
+      "effects": [
+        {
+          "kind": "HEAL_MAX_HP_PCT",
+          "target": "LOWEST_HP_ALLY",
+          "value": 34
+        }
+      ]
+    },
+    {
+      "id": "respiro_y_descanso",
+      "name_es": "Respiro y Descanso",
+      "name_en": "Rest & Recovery",
+      "is_charged": true,
+      "amber_cost": 2,
+      "cooldown": 2,
+      "initial_delay": 0,
+      "has_priority": false,
+      "effects": [
+        {
+          "kind": "CLEANSE_DEBUFFS",
+          "target": "ALL_ALLIES"
+        },
+        {
+          "kind": "HEAL_PCT_REGEN",
+          "target": "ALL_ALLIES",
+          "value": 15,
+          "duration": 3
+        }
+      ]
+    },
+    {
+      "id": "rompeolas",
+      "name_es": "Rompeolas",
+      "name_en": "Wavebreaker",
+      "is_charged": true,
+      "amber_cost": 2,
+      "cooldown": 1,
+      "initial_delay": 1,
+      "has_priority": false,
+      "effects": [
+        {
+          "kind": "DAMAGE",
+          "target": "ALL_ENEMIES",
+          "value": 0.67
+        },
+        {
+          "kind": "MOD_SPEED_FLAT",
+          "target": "SELF",
+          "value": 10,
+          "duration": 2
+        }
+      ]
+    },
+    {
+      "id": "rugido_territorial",
+      "name_es": "Rugido Territorial",
+      "name_en": "Territorial Roar",
+      "is_charged": true,
+      "amber_cost": 1,
+      "cooldown": 1,
+      "initial_delay": 0,
+      "has_priority": true,
+      "effects": [
+        {
+          "kind": "MOD_ATTACK_PCT",
+          "target": "SELF",
+          "value": 34,
+          "duration": 2
+        }
+      ]
+    },
+    {
+      "id": "talones_furiosos",
+      "name_es": "Talones Furiosos",
+      "name_en": "Furious Talons",
+      "is_charged": true,
+      "amber_cost": 1,
+      "cooldown": 2,
+      "initial_delay": 0,
+      "has_priority": false,
+      "effects": [
+        {
+          "kind": "DAMAGE",
+          "target": "SINGLE_ENEMY",
+          "value": 0.75
+        },
+        {
+          "kind": "MOD_ATTACK_PCT",
+          "target": "SELF",
+          "value": 25,
+          "duration": 1
+        }
+      ]
+    },
+    {
+      "id": "temblor",
+      "name_es": "Temblor",
+      "name_en": "Quake",
+      "is_charged": true,
+      "amber_cost": 2,
+      "cooldown": 2,
+      "initial_delay": 0,
+      "has_priority": false,
+      "effects": [
+        {
+          "kind": "DAMAGE",
+          "target": "ALL_ENEMIES",
+          "value": 0.67
+        },
+        {
+          "kind": "MOD_ATTACK_PCT",
+          "target": "ALL_ENEMIES",
+          "value": -30,
+          "duration": 2
+        }
+      ]
+    },
+    {
+      "id": "teratogenico",
+      "name_es": "Teratogénico",
+      "name_en": "Teratogenic",
+      "is_charged": true,
+      "amber_cost": 1,
+      "cooldown": 2,
+      "initial_delay": 0,
+      "has_priority": false,
+      "effects": [
+        {
+          "kind": "AMBER_DRAIN",
+          "target": "ALL_ENEMIES",
+          "value": 1,
+          "duration": 2
+        }
+      ]
+    },
+    {
+      "id": "terremoto",
+      "name_es": "Terremoto",
+      "name_en": "Earthquake",
+      "is_charged": true,
+      "amber_cost": 3,
+      "cooldown": 2,
+      "initial_delay": 2,
+      "has_priority": false,
+      "effects": [
+        {
+          "kind": "DAMAGE",
+          "target": "ALL_ENEMIES",
+          "value": 1.75
+        }
+      ]
+    },
+    {
+      "id": "torbellino",
+      "name_es": "Torbellino",
+      "name_en": "Whirlwind",
+      "is_charged": true,
+      "amber_cost": 2,
+      "cooldown": 1,
+      "initial_delay": 1,
+      "has_priority": false,
+      "effects": [
+        {
+          "kind": "DAMAGE",
+          "target": "ALL_ENEMIES",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "id": "tornado",
+      "name_es": "Tornado",
+      "name_en": "Tornado",
+      "is_charged": true,
+      "amber_cost": 3,
+      "cooldown": 2,
+      "initial_delay": 2,
+      "has_priority": false,
+      "effects": [
+        {
+          "kind": "DAMAGE",
+          "target": "ALL_ENEMIES",
+          "value": 1.2
+        },
+        {
+          "kind": "MOD_SPEED_FLAT",
+          "target": "ALL_ENEMIES",
+          "value": -15,
+          "duration": 1
+        }
+      ]
+    },
+    {
+      "id": "translocacion",
+      "name_es": "Translocación",
+      "name_en": "Translocation",
+      "is_charged": true,
+      "amber_cost": 2,
+      "cooldown": 2,
+      "initial_delay": 0,
+      "has_priority": false,
+      "effects": [
+        {
+          "kind": "AMBER_DRAIN",
+          "target": "ALL_ENEMIES",
+          "value": 1,
+          "duration": 1
+        },
+        {
+          "kind": "AMBER_REGEN",
+          "target": "SELF",
+          "value": 1,
+          "duration": 1
+        }
+      ]
+    },
+    {
+      "id": "tsunami",
+      "name_es": "Tsunami",
+      "name_en": "Tsunami",
+      "is_charged": true,
+      "amber_cost": 2,
+      "cooldown": 1,
+      "initial_delay": 2,
+      "has_priority": false,
+      "effects": [
+        {
+          "kind": "DAMAGE",
+          "target": "ALL_ENEMIES",
+          "value": 1.2
+        }
+      ]
+    },
+    {
+      "id": "ventaja_de_blindaje",
+      "name_es": "Ventaja de Blindaje",
+      "name_en": "Armor Advantage",
+      "is_charged": true,
+      "amber_cost": 2,
+      "cooldown": 2,
+      "initial_delay": 0,
+      "has_priority": false,
+      "effects": [
+        {
+          "kind": "DAMAGE",
+          "target": "SINGLE_ENEMY",
+          "value": 0.67
+        },
+        {
+          "kind": "MOD_ARMOR_FLAT",
+          "target": "SINGLE_ENEMY",
+          "value": -10,
+          "duration": 2
+        },
+        {
+          "kind": "MOD_ARMOR_FLAT",
+          "target": "SELF",
+          "value": 10,
+          "duration": 1
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "entrada_sanadora",
+      "name_es": "Entrada Sanadora",
+      "name_en": "Healing Entry",
+      "trigger": "ON_ENTER",
+      "effects": [
+        {
+          "kind": "HEAL_MAX_HP_PCT",
+          "target": "LOWEST_HP_ALLY",
+          "value": 25
+        }
+      ]
+    },
+    {
+      "id": "entrada_hiriente",
+      "name_es": "Entrada Hiriente",
+      "name_en": "Wounding Entry",
+      "trigger": "ON_ENTER",
+      "effects": [
+        {
+          "kind": "BLEED",
+          "target": "SINGLE_ENEMY",
+          "duration": 2,
+          "dice_count": 3,
+          "dice_sides": 4
+        }
+      ]
+    },
+    {
+      "id": "entrada_fortalecedora",
+      "name_es": "Entrada Fortalecedora",
+      "name_en": "Fortifying Entry",
+      "trigger": "ON_ENTER",
+      "effects": [
+        {
+          "kind": "MOD_ARMOR_FLAT",
+          "target": "SELF",
+          "value": 15,
+          "duration": 1
+        }
+      ]
+    },
+    {
+      "id": "entrada_feroz",
+      "name_es": "Entrada Feroz",
+      "name_en": "Fierce Entry",
+      "trigger": "ON_ENTER",
+      "effects": [
+        {
+          "kind": "MOD_ATTACK_PCT",
+          "target": "SELF",
+          "value": 25,
+          "duration": 2
+        }
+      ]
+    },
+    {
+      "id": "entrada_desconcertante",
+      "name_es": "Entrada Desconcertante",
+      "name_en": "Staggering Entry",
+      "trigger": "ON_ENTER",
+      "effects": [
+        {
+          "kind": "FLINCH",
+          "target": "SINGLE_ENEMY",
+          "value": 1,
+          "duration": 1
+        }
+      ]
+    },
+    {
+      "id": "entrada_fugaz",
+      "name_es": "Entrada Fugaz",
+      "name_en": "Fleeting Entry",
+      "trigger": "ON_ENTER",
+      "effects": [
+        {
+          "kind": "MOD_SPEED_FLAT",
+          "target": "SELF",
+          "value": 10,
+          "duration": 2
+        }
+      ]
+    },
+    {
+      "id": "entrada_amedrentadora",
+      "name_es": "Entrada Amedrentadora",
+      "name_en": "Daunting Entry",
+      "trigger": "ON_ENTER",
+      "effects": [
+        {
+          "kind": "MOD_ATTACK_PCT",
+          "target": "SINGLE_ENEMY",
+          "value": -50,
+          "duration": 1
+        }
+      ]
+    },
+    {
+      "id": "entrada_ralentizante",
+      "name_es": "Entrada Ralentizante",
+      "name_en": "Slowing Entry",
+      "trigger": "ON_ENTER",
+      "effects": [
+        {
+          "kind": "MOD_SPEED_FLAT",
+          "target": "SINGLE_ENEMY",
+          "value": -10,
+          "duration": 2
+        }
+      ]
+    },
+    {
+      "id": "contra_intimidacion",
+      "name_es": "Contra-intimidación",
+      "name_en": "Counter-Intimidate",
+      "trigger": "ON_COUNTER",
+      "effects": [
+        {
+          "kind": "MOD_ATTACK_PCT",
+          "target": "ATTACKER",
+          "value": -30,
+          "duration": 1
+        }
+      ]
+    },
+    {
+      "id": "contrasangrado",
+      "name_es": "Contrasangrado",
+      "name_en": "Counter-Bleed",
+      "trigger": "ON_COUNTER",
+      "effects": [
+        {
+          "kind": "BLEED",
+          "target": "ATTACKER",
+          "duration": 2,
+          "dice_count": 2,
+          "dice_sides": 4
+        }
+      ]
+    },
+    {
+      "id": "contra_ira",
+      "name_es": "Contra-ira",
+      "name_en": "Counter-Rage",
+      "trigger": "ON_COUNTER",
+      "effects": [
+        {
+          "kind": "MOD_ATTACK_PCT",
+          "target": "SELF",
+          "value": 20,
+          "duration": 2
+        }
+      ]
+    },
+    {
+      "id": "contramordisco",
+      "name_es": "Contramordisco",
+      "name_en": "Counter-Bite",
+      "trigger": "ON_COUNTER",
+      "effects": [
+        {
+          "kind": "DAMAGE",
+          "target": "ATTACKER",
+          "value": 0.25,
+          "neutral_damage": true
+        }
+      ]
+    },
+    {
+      "id": "contradesarme",
+      "name_es": "Contradesarme",
+      "name_en": "Counter-Sunder",
+      "trigger": "ON_COUNTER",
+      "effects": [
+        {
+          "kind": "MOD_ARMOR_FLAT",
+          "target": "ATTACKER",
+          "value": -10,
+          "duration": 1
+        }
+      ]
+    },
+    {
+      "id": "contrafortalecimiento",
+      "name_es": "Contrafortalecimiento",
+      "name_en": "Counter-Fortify",
+      "trigger": "ON_COUNTER",
+      "effects": [
+        {
+          "kind": "MOD_ARMOR_FLAT",
+          "target": "SELF",
+          "value": 5,
+          "duration": 2
+        }
+      ]
+    },
+    {
+      "id": "contradeceleracion",
+      "name_es": "Contradeceleración",
+      "name_en": "Counter-Slow",
+      "trigger": "ON_COUNTER",
+      "effects": [
+        {
+          "kind": "MOD_SPEED_FLAT",
+          "target": "ATTACKER",
+          "value": -10,
+          "duration": 2
+        }
+      ]
+    }
+  ],
+  "starter_decks": [
+    {
+      "id": "starter_paleo",
+      "name_es": "Furia del Paleozoico",
+      "name_en": "Paleozoic Fury",
+      "cards": [
+        "aegirocassis",
+        "anomalocaris",
+        "cephalaspis",
+        "dunkleosteus",
+        "helicoprion",
+        "dimetrodon",
+        "edaphosaurus",
+        "inostrancevia",
+        "pulmonoscorpius",
+        "tiktaalik",
+        "endoceras",
+        "meganeura",
+        "coelurosauravus",
+        "jonkeria",
+        "moschops"
+      ]
+    },
+    {
+      "id": "starter_meso",
+      "name_es": "Titanes del Mesozoico",
+      "name_en": "Mesozoic Titans",
+      "cards": [
+        "carnotaurus",
+        "concavenator",
+        "dakosaurus",
+        "dearc",
+        "europejara",
+        "monolophosaurus",
+        "parapuzosia",
+        "pterodaustro",
+        "spinosaurus",
+        "triceratops",
+        "liopleurodon",
+        "hesperornis",
+        "turiasaurus",
+        "dakosaurus",
+        "europejara"
+      ]
+    },
+    {
+      "id": "starter_ceno",
+      "name_es": "Bestias del Cenozoico",
+      "name_en": "Cenozoic Beasts",
+      "cards": [
+        "alca_gigante",
+        "ambulocetus",
+        "arctodus",
+        "argentavis",
+        "chalicotherium",
+        "dromornis",
+        "odobenocetops",
+        "purussaurus",
+        "thylacoleo",
+        "titanoboa",
+        "garza_de_flores",
+        "varanus_priscus",
+        "thylacoleo",
+        "argentavis",
+        "ambulocetus"
+      ]
+    },
+    {
+      "id": "starter_synergy_aquatic",
+      "name_es": "Marea Prehistórica (Acuático/Anfibio)",
+      "name_en": "Prehistoric Tide (Aquatic/Amphibian)",
+      "cards": [
+        "dakosaurus",
+        "dunkleosteus",
+        "helicoprion",
+        "parapuzosia",
+        "liopleurodon",
+        "spinosaurus",
+        "purussaurus",
+        "prionosuchus",
+        "diplocaulus",
+        "tiktaalik",
+        "aegirocassis",
+        "endoceras",
+        "ambulocetus",
+        "dakosaurus",
+        "helicoprion"
+      ]
+    }
+  ]
+}

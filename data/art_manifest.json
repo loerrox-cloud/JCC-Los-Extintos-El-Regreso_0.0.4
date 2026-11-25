@@ -1,0 +1,458 @@
+{
+  "creatures": {
+    "aegirocassis": {
+      "normal": "res://assets/art/creatures/aegirocassis.png",
+      "size": [
+        680,
+        515
+      ],
+      "source_normal": "905 sin título_Restaurado12_20250824010227.png",
+      "glow": "res://assets/art/creatures/aegirocassis_glow.png",
+      "source_glow": "905 sin título_Restaurado12_20250824010236.png"
+    },
+    "anomalocaris": {
+      "normal": "res://assets/art/creatures/anomalocaris.png",
+      "size": [
+        662,
+        680
+      ],
+      "source_normal": "827 sin título_20240216112410.png"
+    },
+    "cephalaspis": {
+      "normal": "res://assets/art/creatures/cephalaspis.png",
+      "size": [
+        680,
+        656
+      ],
+      "source_normal": "696 sin título_20231207120013.png"
+    },
+    "coelurosauravus": {
+      "normal": "res://assets/art/creatures/coelurosauravus.png",
+      "size": [
+        680,
+        378
+      ],
+      "source_normal": "905 sin título_Restaurado_20240718012516.png"
+    },
+    "dicynodon": {
+      "normal": "res://assets/art/creatures/dicynodon.png",
+      "size": [
+        680,
+        373
+      ],
+      "source_normal": "712 sin título_20231209083036.png"
+    },
+    "dimetrodon": {
+      "normal": "res://assets/art/creatures/dimetrodon.png",
+      "size": [
+        680,
+        417
+      ],
+      "source_normal": "905 sin título_Restaurado11_20250805194649.png",
+      "glow": "res://assets/art/creatures/dimetrodon_glow.png",
+      "source_glow": "905 sin título_Restaurado11_20250805194658.png"
+    },
+    "diplocaulus": {
+      "normal": "res://assets/art/creatures/diplocaulus.png",
+      "size": [
+        680,
+        647
+      ],
+      "source_normal": "975 sin título_20240821132107.png",
+      "glow": "res://assets/art/creatures/diplocaulus_glow.png",
+      "source_glow": "975 sin título_20240821132116.png"
+    },
+    "dunkleosteus": {
+      "normal": "res://assets/art/creatures/dunkleosteus.png",
+      "size": [
+        680,
+        406
+      ],
+      "source_normal": "700 sin título_20231208010723.png"
+    },
+    "edaphosaurus": {
+      "normal": "res://assets/art/creatures/edaphosaurus.png",
+      "size": [
+        680,
+        410
+      ],
+      "source_normal": "1032 sin título_Restaurado2_20250524180218.png",
+      "glow": "res://assets/art/creatures/edaphosaurus_glow.png",
+      "source_glow": "1032 sin título_Restaurado2_20250524180235.png"
+    },
+    "endoceras": {
+      "normal": "res://assets/art/creatures/endoceras.png",
+      "size": [
+        680,
+        541
+      ],
+      "source_normal": "718 sin título_20231211153807.png"
+    },
+    "estemmenosuchus": {
+      "normal": "res://assets/art/creatures/estemmenosuchus.png",
+      "size": [
+        501,
+        680
+      ],
+      "source_normal": "822 sin título_20240213220229.png"
+    },
+    "helicoprion": {
+      "normal": "res://assets/art/creatures/helicoprion.png",
+      "size": [
+        422,
+        680
+      ],
+      "source_normal": "973 sin título_Restaurado3_20240828135816.png",
+      "glow": "res://assets/art/creatures/helicoprion_glow.png",
+      "source_glow": "973 sin título_Restaurado3_20240828175839.png"
+    },
+    "inostrancevia": {
+      "normal": "res://assets/art/creatures/inostrancevia.png",
+      "size": [
+        680,
+        374
+      ],
+      "source_normal": "1032 sin título_Restaurado3_20250403202516.png",
+      "glow": "res://assets/art/creatures/inostrancevia_glow.png",
+      "source_glow": "1032 sin título_Restaurado3_20250404003310.png"
+    },
+    "jonkeria": {
+      "normal": "res://assets/art/creatures/jonkeria.png",
+      "size": [
+        680,
+        374
+      ],
+      "source_normal": "724 sin título_20231213192852.png"
+    },
+    "meganeura": {
+      "normal": "res://assets/art/creatures/meganeura.png",
+      "size": [
+        680,
+        591
+      ],
+      "source_normal": "886 sin título_20240410004316.png"
+    },
+    "moschops": {
+      "normal": "res://assets/art/creatures/moschops.png",
+      "size": [
+        680,
+        370
+      ],
+      "source_normal": "IMG_20231209_164006.png"
+    },
+    "ophiacodon": {
+      "normal": "res://assets/art/creatures/ophiacodon.png",
+      "size": [
+        680,
+        524
+      ],
+      "source_normal": "714 sin título_20231210133228.png"
+    },
+    "pulmonoscorpius": {
+      "normal": "res://assets/art/creatures/pulmonoscorpius.png",
+      "size": [
+        680,
+        494
+      ],
+      "source_normal": "1051 sin título_Restaurado2_20250427202442.png",
+      "glow": "res://assets/art/creatures/pulmonoscorpius_glow.png",
+      "source_glow": "1051 sin título_Restaurado2_20250427203145.png"
+    },
+    "prionosuchus": {
+      "normal": "res://assets/art/creatures/prionosuchus.png",
+      "size": [
+        680,
+        202
+      ],
+      "source_normal": "905 sin título_Restaurado5_20250130113917.png",
+      "glow": "res://assets/art/creatures/prionosuchus_glow.png",
+      "source_glow": "905 sin título_Restaurado5_20250130114624.png"
+    },
+    "tiktaalik": {
+      "normal": "res://assets/art/creatures/tiktaalik.png",
+      "size": [
+        680,
+        267
+      ],
+      "source_normal": "1032 sin título_Restaurado3_20250401172932.png",
+      "glow": "res://assets/art/creatures/tiktaalik_glow.png",
+      "source_glow": "1032 sin título_Restaurado3_20250401172940.png"
+    },
+    "carnotaurus": {
+      "normal": "res://assets/art/creatures/carnotaurus.png",
+      "size": [
+        680,
+        410
+      ],
+      "source_normal": "952 sin título_Restaurado3_20250807163829.png",
+      "glow": "res://assets/art/creatures/carnotaurus_glow.png",
+      "source_glow": "952 sin título_Restaurado3_20250807163837.png"
+    },
+    "concavenator": {
+      "normal": "res://assets/art/creatures/concavenator.png",
+      "size": [
+        680,
+        344
+      ],
+      "source_normal": "862 sin título_20240321005308.png",
+      "glow": "res://assets/art/creatures/concavenator_glow.png",
+      "source_glow": "862 sin título_20240321010118.png"
+    },
+    "dakosaurus": {
+      "normal": "res://assets/art/creatures/dakosaurus.png",
+      "size": [
+        680,
+        591
+      ],
+      "source_normal": "952 sin título_Restaurado5_20250831100902.png",
+      "glow": "res://assets/art/creatures/dakosaurus_glow.png",
+      "source_glow": "952 sin título_Restaurado5_20250831100918.png"
+    },
+    "dearc": {
+      "normal": "res://assets/art/creatures/dearc.png",
+      "size": [
+        680,
+        541
+      ],
+      "source_normal": "1051 sin título_20250414191358.png",
+      "glow": "res://assets/art/creatures/dearc_glow.png",
+      "source_glow": "1051 sin título_20250414191411.png"
+    },
+    "europejara": {
+      "normal": "res://assets/art/creatures/europejara.png",
+      "size": [
+        680,
+        640
+      ],
+      "source_normal": "875 sin título_20240329180942.png"
+    },
+    "hesperornis": {
+      "normal": "res://assets/art/creatures/hesperornis.png",
+      "size": [
+        389,
+        680
+      ],
+      "source_normal": "973 sin título_Restaurado2_20250213003211.png",
+      "glow": "res://assets/art/creatures/hesperornis_glow.png",
+      "source_glow": "973 sin título_Restaurado2_20250213003220.png"
+    },
+    "liopleurodon": {
+      "normal": "res://assets/art/creatures/liopleurodon.png",
+      "size": [
+        680,
+        369
+      ],
+      "source_normal": "905 sin título_Restaurado3_20240715142528.png",
+      "glow": "res://assets/art/creatures/liopleurodon_glow.png",
+      "source_glow": "905 sin título_Restaurado3_20240715142606.png"
+    },
+    "monolophosaurus": {
+      "normal": "res://assets/art/creatures/monolophosaurus.png",
+      "size": [
+        680,
+        354
+      ],
+      "source_normal": "890 sin título_20240412002344.png",
+      "glow": "res://assets/art/creatures/monolophosaurus_glow.png",
+      "source_glow": "890 sin título_20240412002446.png"
+    },
+    "parapuzosia": {
+      "normal": "res://assets/art/creatures/parapuzosia.png",
+      "size": [
+        366,
+        680
+      ],
+      "source_normal": "IMG_20240806_225901.png",
+      "glow": "res://assets/art/creatures/parapuzosia_glow.png",
+      "source_glow": "IMG_20240807_115053.png"
+    },
+    "pterodaustro": {
+      "normal": "res://assets/art/creatures/pterodaustro.png",
+      "size": [
+        680,
+        613
+      ],
+      "source_normal": "860 sin título_20240319132145.png"
+    },
+    "spinosaurus": {
+      "normal": "res://assets/art/creatures/spinosaurus.png",
+      "size": [
+        680,
+        583
+      ],
+      "source_normal": "1086 sin título_20250826190701.png",
+      "glow": "res://assets/art/creatures/spinosaurus_glow.png",
+      "source_glow": "1086 sin título_20250826190712.png"
+    },
+    "triceratops": {
+      "normal": "res://assets/art/creatures/triceratops.png",
+      "size": [
+        680,
+        365
+      ],
+      "source_normal": "905 sin título_Restaurado4_20240831014811.png",
+      "glow": "res://assets/art/creatures/triceratops_glow.png",
+      "source_glow": "905 sin título_Restaurado4_20240831014830.png"
+    },
+    "turiasaurus": {
+      "normal": "res://assets/art/creatures/turiasaurus.png",
+      "size": [
+        680,
+        344
+      ],
+      "source_normal": "894 sin título_20240413200250.png",
+      "glow": "res://assets/art/creatures/turiasaurus_glow.png",
+      "source_glow": "894 sin título_20240413200307.png"
+    },
+    "alca_gigante": {
+      "normal": "res://assets/art/creatures/alca_gigante.png",
+      "size": [
+        680,
+        671
+      ],
+      "source_normal": "962 sin título_20240728184524.png",
+      "glow": "res://assets/art/creatures/alca_gigante_glow.png",
+      "source_glow": "962 sin título_20240728184546.png"
+    },
+    "ambulocetus": {
+      "normal": "res://assets/art/creatures/ambulocetus.png",
+      "size": [
+        680,
+        284
+      ],
+      "source_normal": "905 sin título_Restaurado10_20250804161153.png",
+      "glow": "res://assets/art/creatures/ambulocetus_glow.png",
+      "source_glow": "905 sin título_Restaurado10_20250804161201.png"
+    },
+    "arctodus": {
+      "normal": "res://assets/art/creatures/arctodus.png",
+      "size": [
+        514,
+        680
+      ],
+      "source_normal": "960 sin título_20240723124941.png",
+      "glow": "res://assets/art/creatures/arctodus_glow.png",
+      "source_glow": "960 sin título_20240723125010.png"
+    },
+    "argentavis": {
+      "normal": "res://assets/art/creatures/argentavis.png",
+      "size": [
+        680,
+        498
+      ],
+      "source_normal": "905 sin título_Restaurado4_20240816152957.png",
+      "glow": "res://assets/art/creatures/argentavis_glow.png",
+      "source_glow": "905 sin título_Restaurado4_20240816153447.png"
+    },
+    "chalicotherium": {
+      "normal": "res://assets/art/creatures/chalicotherium.png",
+      "size": [
+        680,
+        529
+      ],
+      "source_normal": "905 sin título_Restaurado6_20250201172713.png"
+    },
+    "dromornis": {
+      "normal": "res://assets/art/creatures/dromornis.png",
+      "size": [
+        417,
+        680
+      ],
+      "source_normal": "973 sin título_Restaurado4_20250330231126.png",
+      "glow": "res://assets/art/creatures/dromornis_glow.png",
+      "source_glow": "973 sin título_Restaurado4_20250330231147.png"
+    },
+    "garza_de_flores": {
+      "normal": "res://assets/art/creatures/garza_de_flores.png",
+      "size": [
+        680,
+        298
+      ],
+      "source_normal": "952 sin título_Restaurado2_20250823111105.png"
+    },
+    "odobenocetops": {
+      "normal": "res://assets/art/creatures/odobenocetops.png",
+      "size": [
+        680,
+        329
+      ],
+      "source_normal": "821 sin título_20240212171434.png",
+      "glow": "res://assets/art/creatures/odobenocetops_glow.png",
+      "source_glow": "821 sin título_20240212205508.png"
+    },
+    "purussaurus": {
+      "normal": "res://assets/art/creatures/purussaurus.png",
+      "size": [
+        680,
+        436
+      ],
+      "source_normal": "905 sin título_Restaurado4_20240719183428.png",
+      "glow": "res://assets/art/creatures/purussaurus_glow.png",
+      "source_glow": "905 sin título_Restaurado4_20240719183417.png"
+    },
+    "thylacoleo": {
+      "normal": "res://assets/art/creatures/thylacoleo.png",
+      "size": [
+        680,
+        364
+      ],
+      "source_normal": "905 sin título_Restaurado7_20250714195417.png",
+      "glow": "res://assets/art/creatures/thylacoleo_glow.png",
+      "source_glow": "905 sin título_Restaurado7_20250714195426.png"
+    },
+    "titanoboa": {
+      "normal": "res://assets/art/creatures/titanoboa.png",
+      "size": [
+        680,
+        375
+      ],
+      "source_normal": "905 sin título_Restaurado_20240805115320.png",
+      "glow": "res://assets/art/creatures/titanoboa_glow.png",
+      "source_glow": "905 sin título_Restaurado_20240805115349.png"
+    },
+    "varanus_priscus": {
+      "normal": "res://assets/art/creatures/varanus_priscus.png",
+      "size": [
+        540,
+        680
+      ],
+      "source_normal": "IMG_20240804_023252.png",
+      "glow": "res://assets/art/creatures/varanus_priscus_glow.png",
+      "source_glow": "IMG_20240804_023305.png"
+    }
+  },
+  "backgrounds": {
+    "acuatico": [
+      "res://assets/art/backgrounds/bg_acuatico_01.jpg",
+      "res://assets/art/backgrounds/bg_acuatico_02.jpg",
+      "res://assets/art/backgrounds/bg_acuatico_03.jpg",
+      "res://assets/art/backgrounds/bg_acuatico_04.jpg",
+      "res://assets/art/backgrounds/bg_acuatico_05.jpg",
+      "res://assets/art/backgrounds/bg_acuatico_06.jpg"
+    ],
+    "anfibio": [
+      "res://assets/art/backgrounds/bg_anfibio_01.jpg",
+      "res://assets/art/backgrounds/bg_anfibio_02.jpg",
+      "res://assets/art/backgrounds/bg_anfibio_03.jpg",
+      "res://assets/art/backgrounds/bg_anfibio_04.jpg",
+      "res://assets/art/backgrounds/bg_anfibio_05.jpg",
+      "res://assets/art/backgrounds/bg_anfibio_06.jpg"
+    ],
+    "terrestre": [
+      "res://assets/art/backgrounds/bg_terrestre_01.jpg",
+      "res://assets/art/backgrounds/bg_terrestre_02.jpg",
+      "res://assets/art/backgrounds/bg_terrestre_03.jpg",
+      "res://assets/art/backgrounds/bg_terrestre_04.jpg",
+      "res://assets/art/backgrounds/bg_terrestre_05.jpg",
+      "res://assets/art/backgrounds/bg_terrestre_06.jpg"
+    ],
+    "volador": [
+      "res://assets/art/backgrounds/bg_volador_01.jpg",
+      "res://assets/art/backgrounds/bg_volador_02.jpg",
+      "res://assets/art/backgrounds/bg_volador_03.jpg",
+      "res://assets/art/backgrounds/bg_volador_04.jpg",
+      "res://assets/art/backgrounds/bg_volador_05.jpg",
+      "res://assets/art/backgrounds/bg_volador_06.jpg"
+    ]
+  }
+}
